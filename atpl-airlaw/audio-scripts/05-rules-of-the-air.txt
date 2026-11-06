@@ -1,0 +1,54 @@
+TITLE: Rules of the air
+SUBJECT: 010 05 Rules of the air
+SUMMARY: SERA and Annex 2: right of way, navigation lights, minimum heights, VMC minima, special VFR, cruising levels, light signals and interception.
+---
+[chime]
+K: Welcome back to Cleared for Theory, Air Law. Topic five, the rules of the air, is one of the biggest in the exam.
+T: Whose rules, exactly?
+K: In Europe they're SERA, the Standardised European Rules of the Air, which put ICAO Annex two into EU law. Over the high seas, Annex two applies without exception. And the PIC may depart from the rules only when it's absolutely necessary in the interests of safety.
+T: Start with right of way.
+K: The aircraft with right of way keeps its heading and speed. When two aircraft converge at about the same level, the one that has the other on its right gives way.
+T: And when they're different kinds of aircraft?
+K: The least manoeuvrable has priority. Power-driven aeroplanes give way to airships, sailplanes and balloons. Airships give way to sailplanes and balloons. Sailplanes give way to balloons. And powered aircraft give way to anyone seen towing.
+T: Head-on?
+K: Both turn right. When overtaking, the aircraft being overtaken has right of way, and the one overtaking passes by turning right. You're overtaking if you approach from behind within seventy degrees of the other aircraft's centre line.
+T: And landing?
+K: Aircraft landing or on final have priority. Of two aircraft approaching to land, the higher one gives way to the lower. But the lower one must not cut in front of someone on final.
+T: Navigation lights.
+K: Red on the left wing and green on the right, each covering one hundred and ten degrees from dead ahead. White at the tail, covering one hundred and forty degrees.
+T: Now minimum heights.
+K: VFR over a congested area: one thousand feet above the highest obstacle within six hundred metres. Elsewhere: five hundred feet above the ground or water, or above the highest obstacle within one hundred and fifty metres. IFR, where no minimum is published: two thousand feet above the highest obstacle within eight kilometres over high terrain, and one thousand feet elsewhere.
+T: The visibility and cloud minima next. These always get me.
+K: Let's make it simple. At or above flight level one hundred: eight kilometres visibility, and fifteen hundred metres horizontally and one thousand feet vertically from cloud. Below flight level one hundred, it's the same distances from cloud, but five kilometres visibility.
+T: And down low?
+K: At or below three thousand feet above sea level, or one thousand feet above terrain, whichever is higher, in classes F and G: five kilometres visibility, clear of cloud, and in sight of the surface. That visibility can drop to fifteen hundred metres if you fly at one hundred and forty knots or less. And VFR is never allowed in class A.
+T: What about leaving a control zone in poor weather?
+K: VFR can't take off or land at an aerodrome in a control zone when the ceiling is below fifteen hundred feet or the ground visibility is below five kilometres, unless you have a special VFR clearance. Special VFR needs at least fifteen hundred metres ground visibility, no more than one hundred and forty knots, clear of cloud and with the surface in sight.
+T: Cruising levels.
+K: They depend on your magnetic track. From zero to one seven nine degrees, IFR flies odd thousands, like flight level seventy or ninety, and VFR flies odd thousands plus five hundred, like flight level fifty-five. From one eight zero to three five nine, it's even thousands for IFR and even plus five hundred for VFR. In RVSM airspace, flight level two nine zero to four one zero, eastbound is two nine zero, three one zero and so on, and westbound is three hundred, three twenty and so on.
+T: Light signals from the tower. There are six to learn.
+K: Steady green: in the air, cleared to land. On the ground, cleared for take-off. Steady red: in the air, give way and keep circling. On the ground, stop. Green flashes: in the air, return for landing. On the ground, cleared to taxi.
+T: And the flashing ones?
+K: Red flashes: in the air, the aerodrome is unsafe, don't land. On the ground, taxi clear of the landing area. White flashes: in the air, land here and go to the apron. On the ground, return to your starting point. And a red pyrotechnic means: whatever you were told before, do not land for now.
+T: How do I acknowledge them?
+K: In flight by day, rock your wings, but not on base or final. At night, flash your landing or navigation lights twice.
+T: Some other rules.
+K: Simulated instrument flight needs dual controls and a qualified safety pilot. At an aerodrome, make left turns unless told otherwise. Submit a flight plan at least sixty minutes before departure, and tell ATS if your true airspeed changes by five percent or more. If a clearance isn't acceptable, ask for an amended one. A position report has six items: identification, position, time, level, next position with its time, and the ensuing significant point.
+T: And radio failure?
+K: Squawk seven six zero zero. In visual conditions, stay visual and land at the nearest suitable aerodrome. One warning: the EU changed the detailed IFR procedure in May twenty twenty-five, so check which version your school teaches.
+T: Last, interception.
+K: If you're intercepted, follow the interceptor's instructions immediately. Try to call on one two one decimal five, and squawk seven seven zero zero unless told otherwise. If it rocks its wings from slightly above, ahead and to your left, then turns slowly, it means: you've been intercepted, follow me. A sharp climbing turn away of ninety degrees or more means: you may proceed.
+T: And signals from me?
+K: Switching all your lights on and off at regular intervals means: cannot comply. Flashing them irregularly means: in distress.
+[chime]
+K: Quiz time. Question one. Two powered aircraft are converging at the same level. Which one gives way?
+[pause 4]
+K: The one that has the other on its right.
+K: Question two. What does a series of red flashes mean to an aircraft in flight?
+[pause 4]
+K: The aerodrome is unsafe. Do not land.
+K: Question three. What ground visibility does special VFR need for take-off?
+[pause 4]
+K: Fifteen hundred metres.
+T: Next, aircraft operations: approaches, holding and altimeters.
+[chime]

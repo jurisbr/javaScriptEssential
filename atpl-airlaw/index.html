@@ -93,6 +93,7 @@ button { font: inherit; color: inherit; }
 .sync[data-s="synced"]::before { background: var(--ok); }
 .sync[data-s="offline"]::before { background: var(--flag); }
 @media (max-width: 620px) { .tabs { order: 3; flex-basis: 100%; } .sync { margin-left: auto; } }
+@media (max-width: 430px) { .tabs { gap: 2px; } .tabs a { padding: 6px 8px; font-size: 15px; } }
 
 /* Signs */
 .loc {
@@ -307,6 +308,58 @@ body.in-exam .tabs, body.in-exam .foot { display: none; }
 .brief { display: grid; gap: 14px; }
 .brief ul { margin: 0; padding-left: 20px; display: grid; gap: 4px; }
 .foot { margin-top: 36px; font-size: 13px; color: var(--muted); border-top: 1px solid var(--rule); padding-top: 14px; }
+/* Listening: episode list, transcript, docked player */
+.eps { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+.ep {
+  display: grid; grid-template-columns: 74px minmax(0, 1fr) auto; gap: 14px; align-items: center; width: 100%; text-align: left; cursor: pointer;
+  background: var(--panel); border: 1px solid var(--rule); border-radius: 6px; padding: 12px 14px; position: relative; overflow: hidden;
+}
+.ep:hover { border-color: var(--ink); }
+.ep[aria-current="true"] { border-color: var(--ink); box-shadow: inset 4px 0 0 var(--sign); }
+.ep .tt { min-width: 0; display: grid; gap: 2px; }
+.ep .tt b { font-family: var(--display); font-size: 18px; font-weight: 600; line-height: 1.2; }
+.ep .tt small { color: var(--muted); font-size: 13px; line-height: 1.4; }
+.ep .st { display: grid; justify-items: end; gap: 2px; font-size: 14px; font-variant-numeric: tabular-nums; font-weight: 600; }
+.ep .st small { font-family: var(--display); font-weight: 600; font-size: 12px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); }
+.ep[aria-current="true"] .st small { color: var(--ink); }
+.ep .prog { position: absolute; left: 0; bottom: 0; height: 3px; background: var(--sign); }
+@media (max-width: 560px) { .ep { grid-template-columns: minmax(0, 1fr) auto; } .ep .loc { grid-column: 1 / -1; justify-self: start; } .ep .tt small { display: none; } }
+.txhead { display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap; margin-bottom: 8px; }
+.toggle { display: inline-flex; align-items: center; gap: 8px; font-size: 14px; color: var(--muted); cursor: pointer; }
+.toggle input { accent-color: var(--ink); width: 16px; height: 16px; }
+.tx { display: grid; gap: 2px; background: var(--panel); border: 1px solid var(--rule); border-radius: 6px; padding: 8px; }
+.line {
+  display: grid; grid-template-columns: 52px minmax(0, 1fr); gap: 10px; padding: 8px 10px; border-radius: 4px; border: 0;
+  background: transparent; text-align: left; width: 100%; cursor: pointer; font-size: 16px; line-height: 1.5;
+}
+.line:hover { background: var(--bg); }
+.line.now { background: var(--bg); box-shadow: inset 3px 0 0 var(--sign); }
+.line .who { font-family: var(--display); font-weight: 600; font-size: 13px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); padding-top: 2px; }
+.line[data-s="Kate"] .who { color: var(--ink); }
+@media (max-width: 480px) { .line { grid-template-columns: minmax(0, 1fr); gap: 0; } }
+.listenbtn { display: inline-flex; align-items: center; gap: 8px; }
+.listenbtn svg { width: 16px; height: 16px; fill: currentColor; }
+body.has-player { padding-bottom: calc(150px + env(safe-area-inset-bottom, 0px)); }
+body.in-exam .player { display: none; }
+.player {
+  position: fixed; left: 0; right: 0; bottom: 0; z-index: 20; background: var(--panel); border-top: 1px solid var(--rule);
+  padding-top: 10px; padding-bottom: calc(10px + env(safe-area-inset-bottom, 0px));
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px));
+  box-shadow: 0 -8px 24px rgba(0, 0, 0, 0.10);
+}
+.p-in { max-width: 860px; margin: 0 auto; display: grid; gap: 6px; }
+.p-title { display: flex; gap: 10px; align-items: center; min-width: 0; }
+.p-title span:last-child { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-family: var(--display); font-weight: 600; font-size: 17px; min-width: 0; }
+.p-bar { display: grid; grid-template-columns: auto minmax(0, 1fr) auto; gap: 10px; align-items: center; font-size: 13px; color: var(--muted); font-variant-numeric: tabular-nums; }
+#seek { width: 100%; accent-color: var(--ink); height: 22px; margin: 0; }
+.p-ctl { display: flex; align-items: center; justify-content: center; gap: 12px; }
+.ctl {
+  background: transparent; border: 1px solid var(--rule); border-radius: 999px; height: 40px; min-width: 52px; padding: 0 12px;
+  cursor: pointer; font-family: var(--display); font-weight: 600; font-size: 15px; display: inline-flex; align-items: center; justify-content: center; text-decoration: none;
+}
+.ctl:hover { border-color: var(--ink); }
+.ctl.play { width: 52px; height: 52px; min-width: 52px; padding: 0; border: 0; background: var(--sign); color: var(--sign-ink); }
+.ctl.play svg { width: 22px; height: 22px; fill: currentColor; }
 @media (prefers-reduced-motion: reduce) { .lamp.fl { animation: none; outline: 2px dashed var(--muted); outline-offset: 1px; } }
 </style>
 
@@ -315,6 +368,7 @@ body.in-exam .tabs, body.in-exam .foot { display: none; }
     <a class="brand" href="#study"><span class="loc">010</span><span class="brand-t">Air Law</span></a>
     <nav class="tabs" aria-label="Sections">
       <a href="#study" data-tab="study">Study</a>
+      <a href="#listen" data-tab="listen">Listen</a>
       <a href="#practice" data-tab="practice">Practice</a>
       <a href="#exam" data-tab="exam">Mock exam</a>
       <a href="#progress" data-tab="progress">Progress</a>
@@ -327,8 +381,27 @@ body.in-exam .tabs, body.in-exam .foot { display: none; }
   These are original practice questions written to the EASA learning objectives for subject 010 (ED Decision 2020/018/R). They are not the official ECQB question bank. Rules change, so check figures against your training school's notes.
 </footer>
 
+<div class="player" id="player" role="region" aria-label="Audio player" hidden>
+  <div class="p-in">
+    <div class="p-title"><span class="loc sm" id="pCode">010</span><span id="pTitle"></span></div>
+    <div class="p-bar"><span id="tCur">0:00</span><input type="range" id="seek" min="0" max="100" step="0.1" value="0" aria-label="Seek"><span id="tDur">0:00</span></div>
+    <div class="p-ctl">
+      <button class="ctl" id="pBack" aria-label="Back 15 seconds">−15</button>
+      <button class="ctl play" id="pPlay" aria-label="Play">
+        <svg viewBox="0 0 24 24" aria-hidden="true" id="icoPlay"><path d="M8 5v14l11-7z"/></svg>
+        <svg viewBox="0 0 24 24" aria-hidden="true" id="icoPause" hidden><path d="M6 5h4v14H6zM14 5h4v14h-4z"/></svg>
+      </button>
+      <button class="ctl" id="pFwd" aria-label="Forward 30 seconds">+30</button>
+      <button class="ctl" id="pRate" aria-label="Playback speed">1×</button>
+      <a class="ctl" href="#listen" aria-label="Show transcript">Text</a>
+    </div>
+  </div>
+</div>
+<audio id="audio" preload="metadata"></audio>
+
 <script src="airlaw-notes.js"></script>
 <script src="airlaw-questions.js"></script>
+<script src="airlaw-audio.js"></script>
 <script>
 (function () {
   "use strict";
@@ -448,7 +521,7 @@ body.in-exam .tabs, body.in-exam .foot { display: none; }
     const h = (location.hash || "#study").slice(1);
     if (EX) return "exam";
     if (h.startsWith("topic-") && TOP[h.slice(6)]) return h;
-    return ["study", "practice", "exam", "exam-result", "progress"].includes(h) ? h : "study";
+    return ["study", "listen", "practice", "exam", "exam-result", "progress"].includes(h) ? h : "study";
   }
   let timerId = null;
   function render() {
@@ -459,6 +532,7 @@ body.in-exam .tabs, body.in-exam .foot { display: none; }
     if (!EX && timerId) { clearInterval(timerId); timerId = null; }
     if (r === "study") viewStudy();
     else if (r.startsWith("topic-")) viewTopic(r.slice(6));
+    else if (r === "listen") viewListen();
     else if (r === "practice") viewPractice();
     else if (r === "exam") EX ? viewExamRun() : viewExamHome();
     else if (r === "exam-result") viewResult();
@@ -501,7 +575,7 @@ body.in-exam .tabs, body.in-exam .foot { display: none; }
         <h1>${esc(t.title)}</h1>
         <p class="lede">${esc(t.sub)}</p>
         <p class="meta">${s.n} practice questions · ${s.seen} answered${s.acc === null ? "" : " · " + s.acc + " % correct on last attempt"} · about ${t.weight} of ${EXAM_N} questions in the mock exam</p>
-        <div class="actions"><button class="btn sign" data-act="practise-topic" data-t="${t.id}">Practise this topic</button></div>
+        <div class="actions"><button class="btn sign" data-act="practise-topic" data-t="${t.id}">Practise this topic</button>${AUDBY[t.id] ? `<button class="btn ghost listenbtn" data-act="listen-topic" data-t="${t.id}"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>Listen · ${fmtLen(AUDBY[t.id].duration)}</button>` : ""}</div>
       </header>
       <article class="notes">${t.html}</article>
       <div class="actions">
@@ -786,6 +860,151 @@ body.in-exam .tabs, body.in-exam .foot { display: none; }
         : `<div class="actions"><button class="btn danger" data-act="reset">Reset progress</button></div>`}</div>`;
   }
 
+  /* ---------- listening ---------- */
+  const AUD = window.AIRLAW_AUDIO || [];
+  const AUDBY = {}; AUD.forEach((ep) => { AUDBY[String(ep.n).padStart(2, "0")] = ep; });
+  const audio = document.getElementById("audio");
+  const seekEl = document.getElementById("seek");
+  const RATES = [0.8, 1, 1.15, 1.25, 1.5];
+  const A = { tid: null, txTid: null, lineEls: [], now: -1, follow: true };
+  const aGet = (k, d) => { const v = lsGet("airlaw010:a:" + k); return v === null || v === undefined ? d : v; };
+  const aSet = (k, v) => lsSet("airlaw010:a:" + k, v);
+  const fmtLen = (s) => Math.floor(s / 60) + ":" + String(Math.floor(s % 60)).padStart(2, "0");
+  const audioTopics = () => TOPICS.filter((t) => AUDBY[t.id]);
+  function epState(tid) {
+    const ep = AUDBY[tid];
+    if (A.tid === tid) return audio.paused ? "Paused" : "Playing";
+    if (aGet("done:" + tid, false)) return "Played";
+    const p = aGet("pos:" + tid, 0);
+    return p > 5 ? fmtLen(ep.duration - p) + " left" : "New";
+  }
+  function epProg(tid) {
+    const ep = AUDBY[tid];
+    if (A.tid === tid) return Math.min(1, (audio.currentTime || +audio.dataset.resume || 0) / ep.duration);
+    if (aGet("done:" + tid, false)) return 1;
+    return Math.min(1, aGet("pos:" + tid, 0) / ep.duration);
+  }
+  function savePos() { if (A.tid) aSet("pos:" + A.tid, Math.floor(audio.currentTime || 0)); }
+  function startAudio() { const p = audio.play(); if (p && p.catch) p.catch(() => {}); }
+  function toggleAudio() { if (!A.tid) return; audio.paused ? startAudio() : audio.pause(); }
+  function loadEp(tid, play, at) {
+    const ep = AUDBY[tid]; if (!ep) return;
+    if (A.tid !== tid) {
+      if (A.tid) savePos();
+      A.tid = tid; aSet("last", tid);
+      const pos = at !== undefined ? at : aGet("done:" + tid, false) ? 0 : aGet("pos:" + tid, 0);
+      audio.dataset.resume = pos;
+      audio.src = ep.file;
+      document.getElementById("pCode").textContent = TOP[tid] ? TOP[tid].code : "010";
+      document.getElementById("pTitle").textContent = ep.title;
+      document.getElementById("tDur").textContent = fmtLen(ep.duration);
+      document.getElementById("tCur").textContent = fmtLen(pos);
+      seekEl.max = ep.duration; seekEl.value = pos;
+      setMedia(ep, tid);
+    } else if (at !== undefined) {
+      audio.currentTime = at;
+    }
+    document.getElementById("player").hidden = false;
+    document.body.classList.add("has-player");
+    if (play) startAudio();
+  }
+  function setMedia(ep, tid) {
+    try {
+      if (!("mediaSession" in navigator)) return;
+      navigator.mediaSession.metadata = new MediaMetadata({ title: ep.title, artist: "Cleared for Theory", album: "Air Law 010" });
+      const ms = navigator.mediaSession;
+      ms.setActionHandler("play", startAudio);
+      ms.setActionHandler("pause", () => audio.pause());
+      ms.setActionHandler("seekbackward", () => { audio.currentTime = Math.max(0, audio.currentTime - 15); });
+      ms.setActionHandler("seekforward", () => { audio.currentTime += 30; });
+      ms.setActionHandler("nexttrack", () => { const n = nextTopic(tid); if (n) { loadEp(n, true); refreshListen(); } });
+    } catch (e) {}
+  }
+  function nextTopic(tid) { const list = audioTopics(); const i = list.findIndex((t) => t.id === tid); return list[i + 1] ? list[i + 1].id : null; }
+  function refreshListen() { if (route() === "listen") render(); }
+  function updateRow() {
+    if (!A.tid) return;
+    const s = document.getElementById("eps-" + A.tid), p = document.getElementById("epp-" + A.tid);
+    if (s) s.textContent = epState(A.tid);
+    if (p) p.style.width = (epProg(A.tid) * 100).toFixed(1) + "%";
+  }
+  function highlightLine(t, scroll) {
+    if (!A.tid || A.txTid !== A.tid || !A.lineEls.length) return;
+    const lines = AUDBY[A.tid].lines; let i = -1;
+    for (let k = 0; k < lines.length; k++) { if (lines[k].at <= t + 0.15) i = k; else break; }
+    if (i === A.now) return;
+    if (A.now >= 0 && A.lineEls[A.now]) A.lineEls[A.now].classList.remove("now");
+    A.now = i;
+    if (i < 0 || !A.lineEls[i]) return;
+    A.lineEls[i].classList.add("now");
+    if (scroll && A.follow && !audio.paused) {
+      const r = A.lineEls[i].getBoundingClientRect();
+      const top = document.getElementById("player").getBoundingClientRect().top;
+      if (r.top < 110 || r.bottom > top - 16) window.scrollBy({ top: r.top - window.innerHeight * 0.35, behavior: window.matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth" });
+    }
+  }
+  function viewListen() {
+    const total = AUD.reduce((a, e) => a + e.duration, 0);
+    const showTid = A.tid || (AUDBY[aGet("last", "")] ? aGet("last", "") : audioTopics()[0] && audioTopics()[0].id);
+    const ep = AUDBY[showTid];
+    main.innerHTML = `
+      <section class="intro">
+        <p class="eyebrow">Listen · Cleared for Theory</p>
+        <h1>Listen to Air Law</h1>
+        <p class="lede">${AUD.length ? `One audio lesson for each syllabus topic: ${AUD.length} episodes, about ${Math.round(total / 60)} minutes in all. Kate (the instructor) and Tom (the student) talk each topic through, and each episode ends with a short quiz. Episodes play on into the next topic, and it remembers where you stopped.` : "The audio lessons are not available in this copy."}</p>
+      </section>
+      ${AUD.length ? `<ol class="eps">${audioTopics().map((t) => { const e = AUDBY[t.id]; return `<li><button class="ep" data-act="lplay" data-t="${t.id}" aria-current="${A.tid === t.id}"><span class="loc">${t.code}</span><span class="tt"><b>${esc(e.title)}</b><small>${esc(e.summary || "")}</small></span><span class="st">${fmtLen(e.duration)}<small id="eps-${t.id}">${epState(t.id)}</small></span><span class="prog" id="epp-${t.id}" style="width:${(epProg(t.id) * 100).toFixed(1)}%"></span></button></li>`; }).join("")}</ol>` : ""}
+      ${ep ? `<section>
+        <div class="txhead"><h2 class="sec" style="margin:0">Transcript · ${esc(ep.title)}</h2><label class="toggle" for="follow"><input type="checkbox" id="follow" ${A.follow ? "checked" : ""}> Follow along</label></div>
+        <div class="tx" id="tx">${ep.lines.map((ln, i) => `<button class="line" data-act="seekline" data-i="${i}" data-s="${esc(ln.s)}"><span class="who">${esc(ln.s)}</span><span>${esc(ln.t)}</span></button>`).join("")}</div>
+      </section>` : ""}`;
+    A.txTid = ep ? showTid : null;
+    A.lineEls = Array.from(document.querySelectorAll("#tx .line"));
+    A.now = -1;
+    const f = document.getElementById("follow");
+    if (f) f.addEventListener("change", () => { A.follow = f.checked; });
+    highlightLine(audio.currentTime || 0, false);
+  }
+  audio.addEventListener("loadedmetadata", () => {
+    const r = parseFloat(audio.dataset.resume || "0");
+    if (r > 0 && r < audio.duration - 3) audio.currentTime = r;
+    audio.dataset.resume = "0";
+    audio.playbackRate = aGet("rate", 1);
+  });
+  audio.addEventListener("timeupdate", () => {
+    const t = audio.currentTime;
+    seekEl.value = t;
+    document.getElementById("tCur").textContent = fmtLen(t);
+    highlightLine(t, true);
+    if (Math.floor(t) % 5 === 0) savePos();
+    updateRow();
+  });
+  function syncIcon() {
+    const playing = !audio.paused;
+    document.getElementById("icoPlay").hidden = playing;
+    document.getElementById("icoPause").hidden = !playing;
+    document.getElementById("pPlay").setAttribute("aria-label", playing ? "Pause" : "Play");
+    updateRow();
+  }
+  audio.addEventListener("play", syncIcon);
+  audio.addEventListener("pause", () => { savePos(); syncIcon(); });
+  audio.addEventListener("ended", () => {
+    const tid = A.tid; aSet("done:" + tid, true); aSet("pos:" + tid, 0);
+    const n = nextTopic(tid);
+    if (n) { loadEp(n, true); refreshListen(); } else syncIcon();
+  });
+  document.getElementById("pPlay").addEventListener("click", toggleAudio);
+  document.getElementById("pBack").addEventListener("click", () => { audio.currentTime = Math.max(0, audio.currentTime - 15); });
+  document.getElementById("pFwd").addEventListener("click", () => { audio.currentTime = Math.min(audio.duration || 0, audio.currentTime + 30); });
+  document.getElementById("pRate").addEventListener("click", () => {
+    const cur = aGet("rate", 1), next = RATES[(RATES.indexOf(cur) + 1) % RATES.length] || 1;
+    aSet("rate", next); audio.playbackRate = next;
+    document.getElementById("pRate").textContent = next + "×";
+  });
+  document.getElementById("pRate").textContent = aGet("rate", 1) + "×";
+  seekEl.addEventListener("input", () => { audio.currentTime = parseFloat(seekEl.value); highlightLine(audio.currentTime, false); });
+  window.addEventListener("pagehide", savePos);
+
   /* ---------- events ---------- */
   const actions = {
     "practise-topic": (b) => { const ids = shuffle(BYT[b.dataset.t] || []); startPractice(ids, TOP[b.dataset.t].title); },
@@ -803,7 +1022,15 @@ body.in-exam .tabs, body.in-exam .foot { display: none; }
     pquit: () => { PS.ids = PS.ids.slice(0, PS.i + (PS.picked[PS.ids[PS.i]] !== undefined ? 1 : 0)); if (!PS.ids.length) PS = null; else PS.i = PS.ids.length; render(); },
     pretry: () => { const missed = PS.ids.filter((id) => PS.perm[id][PS.picked[id]] !== 0); startPractice(shuffle(missed), "Retry missed"); },
     pnew: () => { PS = null; render(); },
-    xstart: () => newExam(),
+    xstart: () => { audio.pause(); newExam(); },
+    "listen-topic": (b) => loadEp(b.dataset.t, true),
+    lplay: (b) => { const t = b.dataset.t; if (A.tid === t) toggleAudio(); else { loadEp(t, true); render(); } },
+    seekline: (b) => {
+      const ep = AUDBY[A.txTid]; if (!ep) return;
+      const at = ep.lines[+b.dataset.i].at;
+      if (A.tid !== A.txTid) { loadEp(A.txTid, true, at); render(); }
+      else { audio.currentTime = at; if (audio.paused) startAudio(); highlightLine(at, false); }
+    },
     xpick: (b) => { const id = EX.ids[EX.i]; EX.ans[id] = +b.dataset.k; saveEx(); render(); },
     xclear: () => { delete EX.ans[EX.ids[EX.i]]; saveEx(); render(); },
     xflag: () => { const id = EX.ids[EX.i]; if (EX.flag[id]) delete EX.flag[id]; else EX.flag[id] = true; saveEx(); render(); },
@@ -832,6 +1059,7 @@ body.in-exam .tabs, body.in-exam .foot { display: none; }
     const key = e.key.toLowerCase();
     const n = { "1": 0, "2": 1, "3": 2, "4": 3, a: 0, b: 1, c: 2, d: 3 }[key];
     const r = route();
+    if (e.key === " " && r === "listen" && tag !== "BUTTON") { e.preventDefault(); toggleAudio(); return; }
     if (r === "practice" && PS && PS.i < PS.ids.length) {
       const answered = PS.picked[PS.ids[PS.i]] !== undefined;
       if (n !== undefined && !answered) { e.preventDefault(); actions.pick({ dataset: { k: n } }); }
@@ -844,6 +1072,8 @@ body.in-exam .tabs, body.in-exam .foot { display: none; }
     }
   });
 
+  const lastTid = aGet("last", "");
+  if (!EX && AUDBY[lastTid] && aGet("pos:" + lastTid, 0) > 5 && !aGet("done:" + lastTid, false)) loadEp(lastTid, false);
   render();
   initSync();
 })();

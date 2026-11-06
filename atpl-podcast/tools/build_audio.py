@@ -46,6 +46,14 @@ SAY = [
     (r"\bATO\b", "A-T-O"),
     (r"\bISA\b", "I-S-A"),
     (r"\bSARPs\b", "sarps"),
+    (r"\bIFR\b", "I-F-R"),
+    (r"\bAIP\b", "A-I-P"),
+    (r"\bATIS\b", "A-tis"),
+    (r"\bACAS\b", "A-cass"),
+    (r"\bAPAPI\b", "A-papi"),
+    (r"\bPIC\b", "P-I-C"),
+    (r"\bILS\b", "I-L-S"),
+    (r"\bETA\b", "E-T-A"),
     (r"\bBernoulli", "Ber-noo-lee"),
     (r"1013\.25", "ten thirteen point two five"),
     (r"\b1\.225\b", "one point two two five"),
@@ -121,7 +129,7 @@ def parse(path: Path) -> dict:
     return meta
 
 
-def build_episode(kokoro: Kokoro, number: int, meta: dict, audio_out: Path) -> dict:
+def build_episode(kokoro: Kokoro, number: int, meta: dict, audio_out: Path, album: str = SHOW + ": Season 1") -> dict:
     parts, transcript = [], []
     cursor = 0  # samples
     last_speaker = None
@@ -164,7 +172,7 @@ def build_episode(kokoro: Kokoro, number: int, meta: dict, audio_out: Path) -> d
                 "-codec:a", "libmp3lame", "-b:a", "64k",
                 "-metadata", f"title={number:02d}. {meta['title']}",
                 "-metadata", f"artist={SHOW}",
-                "-metadata", f"album={SHOW}: Season 1",
+                "-metadata", f"album={album}",
                 "-metadata", f"track={number}",
                 "-metadata", "genre=Podcast",
                 str(mp3),
@@ -193,6 +201,8 @@ def main() -> int:
     ap.add_argument("--audio-out", required=True, type=Path)
     ap.add_argument("--data-out", required=True, type=Path)
     ap.add_argument("--only", type=int, help="build just this episode number")
+    ap.add_argument("--var", default="EPISODES", help="global variable name written to the data file")
+    ap.add_argument("--album", default=SHOW + ": Season 1", help="album tag for the MP3s")
     args = ap.parse_args()
 
     kokoro = Kokoro(str(args.models / "kokoro-v1.0.onnx"), str(args.models / "voices-v1.0.bin"))
@@ -203,10 +213,10 @@ def main() -> int:
         if args.only and number != args.only:
             continue
         print(f"Building {path.name}", flush=True)
-        episodes.append(build_episode(kokoro, number, parse(path), args.audio_out))
+        episodes.append(build_episode(kokoro, number, parse(path), args.audio_out, args.album))
 
     args.data_out.write_text(
-        "window.EPISODES = " + json.dumps(episodes, ensure_ascii=False, indent=1) + ";\n",
+        f"window.{args.var} = " + json.dumps(episodes, ensure_ascii=False, indent=1) + ";\n",
         encoding="utf-8",
     )
     print(f"Wrote {args.data_out}")

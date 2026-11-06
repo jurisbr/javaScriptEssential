@@ -1,0 +1,25 @@
+TITLE: Security
+SUBJECT: 010 12 Security
+SUMMARY: Annex 17 principles, screening and re-screening, the flight deck door, the isolated parking position, and what to do under unlawful interference in flight.
+---
+[chime]
+K: Welcome back to Cleared for Theory, Air Law. Topic twelve is security, ICAO Annex seventeen.
+T: What's the main objective?
+K: The safety of passengers, crew, ground staff and the general public comes first in everything to do with unlawful interference.
+T: Some ground rules?
+K: If screened passengers mix with unscreened people, they and their cabin bags must be screened again before boarding. The operator and the PIC must be told about passengers travelling in custody, and about any armed police officers on board. Operators need a written security programme. And if an aircraft is hijacked, the State must help it with navigation aids, air traffic services and permission to land.
+T: The flight deck door?
+K: Aeroplanes over forty-five thousand five hundred kilograms, or with more than sixty passenger seats, need an approved reinforced door that locks from the inside, with a way to see who's outside.
+T: And on the ground after a hijack?
+K: The aircraft goes to an isolated parking position at least one hundred metres from other stands, buildings and public areas.
+T: In flight, what does the crew do?
+K: Squawk seven five zero zero and tell air traffic services. Keep to your assigned track and level if you can. If you must leave them, broadcast warnings on one two one decimal five, and fly at a level that's different from the normal IFR levels: one thousand feet different above flight level two nine zero, or five hundred feet different below it.
+[chime]
+K: Quiz time. Question one. How far must an isolated parking position be from other stands and buildings?
+[pause 4]
+K: At least one hundred metres.
+K: Question two. Which aeroplanes need a reinforced flight deck door?
+[pause 4]
+K: Those over forty-five thousand five hundred kilograms, or with more than sixty passenger seats.
+T: And finally, accident investigation.
+[chime]

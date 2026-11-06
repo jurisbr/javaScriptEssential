@@ -1,0 +1,46 @@
+TITLE: Air traffic services
+SUBJECT: 010 07 Air traffic services
+SUMMARY: The three air traffic services, airspace classes and structure, clearances and read-back, separation, wake turbulence, ATIS and the alerting phases.
+---
+[chime]
+K: Welcome back to Cleared for Theory, Air Law. Topic seven, air traffic services, carries more exam questions than any other topic in Air Law.
+T: Let's start with what the services are.
+K: There are three air traffic services: the air traffic control service, the flight information service, and the alerting service. The control service itself has three parts: area control, approach control and aerodrome control.
+T: Airspace classes. Walk me through them.
+K: Class A is IFR only, and everyone is separated. Class B allows IFR and VFR, and everyone is separated from everyone. In class C, IFR is separated from everything, and VFR is separated from IFR but only gets traffic information about other VFR.
+T: Class D?
+K: In class D, IFR is separated from IFR only, and everyone else gets traffic information. In class E, VFR doesn't even need a clearance. Class F gives IFR an advisory service. And class G is flight information only.
+T: The two hundred and fifty knot limit below flight level one hundred?
+K: It doesn't apply in A or B, or to IFR in C. It applies to VFR in C, and to everyone in D, E, F and G.
+T: Now the airspace structure.
+K: A flight information region covers the airspace where flight information and alerting are provided, and the control areas and control zones inside it are part of it. A control area's base must be at least seven hundred feet above ground or water. A control zone extends at least five nautical miles from the aerodrome in the approach directions, and if it sits under a control area, it reaches at least up to the control area's base.
+T: Clearances.
+K: A clearance is based only on known traffic. It doesn't take away the PIC's duty to follow the rules. It has five parts: aircraft identification, clearance limit, route, levels, and any other instructions. The clearance limit is the point to which you're cleared. And clearances don't protect you from terrain, except when an IFR flight is being radar vectored.
+T: What must I read back?
+K: Anything about a runway: entering it, landing, taking off, holding short, crossing or backtracking. Also route clearances, levels, headings, speeds, squawk codes, altimeter settings, frequencies, and the transition level. And don't expect speed control within four miles of the threshold.
+T: Separation.
+K: Vertically, it's one thousand feet below flight level two nine zero, and two thousand above, except in RVSM airspace, where it's one thousand up to flight level four one zero. The basic radar separation is five nautical miles. For lateral separation from the same VOR, tracks must diverge by at least fifteen degrees, with one aircraft at least fifteen miles out.
+T: And in visual approaches?
+K: ATC still separates the aircraft from other arriving and departing traffic. The tower gives surface wind in degrees magnetic. And runway vacated means the whole aircraft is beyond the holding point.
+T: Wake turbulence.
+K: Light is up to seven thousand kilograms. Medium is above that and below one hundred and thirty-six thousand. Heavy is one hundred and thirty-six thousand or more, and heavy aircraft say "heavy" after their call sign on first contact. The A three eighty is "super".
+T: The distances?
+K: On radar: heavy behind heavy, four miles. Medium behind heavy, five. Light behind heavy, six. Light behind medium, five. Without radar, for arrivals: medium behind heavy, two minutes, and light behind heavy or medium, three minutes. For departures from the same runway, two minutes.
+T: Flight information and ATIS.
+K: Flight information goes to every aircraft that might be affected and is known to air traffic services. The ATIS is identified by a letter, it's updated as soon as anything significant changes, and you confirm the letter on first contact.
+T: And the alerting phases.
+K: First comes the uncertainty phase, INCERFA: no contact for thirty minutes after a call was due, or no arrival within thirty minutes of the ETA. Then the alert phase, ALERFA: inquiries have failed, or an aircraft cleared to land hasn't landed within five minutes and can't be contacted. Unlawful interference is also an alert phase. Finally the distress phase, DETRESFA: for example, the fuel is considered exhausted, or a forced landing is likely. The air traffic unit notifies the rescue coordination centre.
+T: Anything else worth a quick mention?
+K: A special air-report is for severe turbulence, severe icing, thunderstorms, volcanic ash and similar. The expected approach time is when ATC expects you to leave the hold to start your approach. An AIRPROX is when, in the opinion of a pilot or controller, the safety of aircraft may have been compromised. And a U at the start of a route designator means upper airspace.
+[chime]
+K: Quiz time. Question one. In which airspace class does VFR traffic not need a clearance?
+[pause 4]
+K: Class E.
+K: Question two. What is the minimum height of the base of a control area?
+[pause 4]
+K: Seven hundred feet above ground or water.
+K: Question three. An aircraft cleared to land hasn't landed within five minutes, and there's no contact. Which phase is declared?
+[pause 4]
+K: The alert phase, ALERFA.
+T: Next, aeronautical information.
+[chime]

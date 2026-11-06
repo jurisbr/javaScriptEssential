@@ -1,0 +1,25 @@
+TITLE: Facilitation
+SUBJECT: 010 10 Facilitation
+SUMMARY: Annex 9: the general declaration, crew member certificates, inadmissible passengers and unruly passengers.
+---
+[chime]
+K: Welcome back to Cleared for Theory, Air Law. Topic ten, facilitation, is short: usually one exam question.
+T: What is facilitation?
+K: ICAO Annex nine. It's about speeding up the entry and departure of aircraft, crew, passengers and cargo at borders, with less paperwork and fewer delays.
+T: Which documents does the aircraft need?
+K: The general declaration, which covers the flight and the crew, plus the passenger manifest and the cargo manifest. States shouldn't ask for more than that.
+T: And the crew?
+K: Crew on duty can use their crew member certificate, together with their licence, as an identity document instead of a passport or visa. That covers a layover at the airport or in the city, if they leave on their next flight.
+T: What if a passenger isn't allowed into the country?
+K: The State tells the operator, and the operator is responsible for removing the person, normally back to where they boarded.
+T: And unruly passengers?
+K: That's the Tokyo Convention again: the PIC may restrain them and disembark them.
+[chime]
+K: Quiz time. Question one. What may crew on duty use instead of a passport?
+[pause 4]
+K: Their crew member certificate, with their licence.
+K: Question two. Who must remove an inadmissible passenger?
+[pause 4]
+K: The aircraft operator.
+T: Next, search and rescue.
+[chime]

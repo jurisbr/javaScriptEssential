@@ -1,0 +1,48 @@
+TITLE: International law
+SUBJECT: 010 01 International law
+SUMMARY: The Chicago Convention, ICAO and how its standards work, the freedoms of the air, the other conventions, and EASA's rulebook.
+---
+[chime]
+K: Welcome to Cleared for Theory, Air Law. I'm Kate.
+T: And I'm Tom. This series follows the Air Law app topic by topic, so you can listen, then practise.
+K: Topic one is international law. It's the foundation for everything else in the subject. Tom, where does international air law begin?
+T: Chicago, nineteen forty-four.
+K: Exactly. The Convention on International Civil Aviation was signed in Chicago on the seventh of December, nineteen forty-four. It came into force on the fourth of April, nineteen forty-seven, and it created ICAO, a United Nations specialised agency based in Montreal.
+T: Two dates there. Signed in forty-four, in force in forty-seven.
+K: Right, and examiners love to swap them. Now, a handful of articles you should know by number. Article one: every State has complete and exclusive sovereignty over the airspace above its territory.
+T: And territory means?
+K: Article two: the land areas and the adjacent territorial waters. Over the high seas, the ICAO rules of the air apply without exception. Article seven is cabotage: a State may refuse foreign airlines the right to carry passengers or cargo between two points inside its own territory.
+T: So Paris to Nice on a foreign airline could be refused.
+K: Under Chicago, yes. Article twenty-nine lists the documents carried on international flights, such as the certificate of registration, the certificate of airworthiness, and the crew licences. Article thirty-three says other States recognise those certificates and licences if they were issued to standards equal to or above ICAO's minimum. And Article thirty-eight: if a State can't comply with a Standard, it must notify ICAO of the difference.
+T: Which brings us to how ICAO actually makes its rules.
+K: ICAO has three bodies to remember. The Assembly is all the member States. It meets at least every three years. The Council is the permanent executive body, and the Council adopts the Standards and Recommended Practices, called SARPs, as Annexes to the Convention. The Air Navigation Commission is the technical body that examines and recommends them.
+T: And the difference between a Standard and a Recommended Practice?
+K: A Standard is necessary. States shall comply, and must notify any difference. A Recommended Practice is desirable. States should comply. Shall versus should.
+T: How many Annexes?
+K: Nineteen. The ones that come up most: Annex one, personnel licensing. Two, rules of the air. Six, operation of aircraft. Seven, nationality and registration marks. Eight, airworthiness. Eleven, air traffic services. Twelve, search and rescue. Thirteen, accident investigation. Fourteen, aerodromes. Fifteen, aeronautical information services. Seventeen, security. Eighteen, dangerous goods. Nineteen, safety management.
+T: Thirteen for accidents. Unlucky thirteen.
+K: Now the freedoms of the air. First freedom: fly over another country without landing. Second: land for non-traffic purposes, like refuelling. Those two are the technical freedoms, granted by the International Air Services Transit Agreement.
+T: And three to five are commercial.
+K: Third: carry traffic from your home State to another State. Fourth: carry it back home. Fifth: carry traffic between two foreign States on a service that starts or ends at home. The first five come from the International Air Transport Agreement. Six to nine are so-called freedoms, outside the Chicago agreements.
+T: One, fly over. Two, stop for fuel. Three, take them out. Four, bring them home. Five, carry on beyond.
+K: Perfect. Next, the other conventions. Match each one to its subject. Tokyo, nineteen sixty-three: offences committed on board aircraft. The Hague, nineteen seventy: unlawful seizure, or hijacking. Montreal, nineteen seventy-one: sabotage and other acts against the safety of civil aviation. Rome, nineteen fifty-two: damage to third parties on the surface. And Warsaw, nineteen twenty-nine, updated by Montreal nineteen ninety-nine: the airline's liability to passengers, baggage and cargo.
+T: What does Tokyo let the captain do?
+K: If the PIC has reasonable grounds to believe someone has committed, or is about to commit, an offence or an act that endangers safety, the PIC may impose reasonable measures, including restraint. The PIC can disembark that person, or hand them over to the authorities if it's serious. And people who help in good faith are not liable.
+T: And the ticket? If the airline forgets to issue one?
+K: The contract of carriage still exists and is still valid. The ticket is only evidence of it. And in the EU, Regulation two six one of two thousand and four gives passengers compensation and assistance for denied boarding, cancellations and long delays.
+T: Last part: the organisations.
+K: IATA is the trade association of the airlines. It is not a UN agency. EASA is the EU's aviation safety agency, set up under the Basic Regulation, number eleven thirty-nine of twenty eighteen. EASA's rules come in two kinds. Hard law is binding: the Basic Regulation and the implementing rules, like the Aircrew Regulation. Soft law isn't binding: certification specifications, acceptable means of compliance, and guidance material.
+T: So an acceptable means of compliance is optional?
+K: It's non-binding, but if you follow it, you're presumed to comply with the rule. You may use an alternative means if it's approved. Finally, EUROCONTROL supports the Single European Sky, which aims to make European air traffic management safer and more efficient by reducing fragmented airspace.
+[chime]
+K: Quiz time. Question one. Which ICAO body adopts Standards and Recommended Practices?
+[pause 4]
+K: The Council.
+K: Question two. An airline from State A carries passengers between State B and State C, on a service that starts in State A. Which freedom is that?
+[pause 4]
+K: The fifth freedom.
+K: Question three. Which convention deals with offences committed on board aircraft?
+[pause 4]
+K: The Tokyo Convention of nineteen sixty-three.
+T: Next up, airworthiness and registration marks.
+[chime]

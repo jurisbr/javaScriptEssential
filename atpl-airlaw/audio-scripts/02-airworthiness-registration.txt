@@ -1,0 +1,36 @@
+TITLE: Airworthiness and registration
+SUBJECT: 010 02 Airworthiness and registration
+SUMMARY: Who issues the certificate of airworthiness, how long it stays valid, and the Annex 7 rules on nationality and registration marks.
+---
+[chime]
+K: Welcome back to Cleared for Theory, Air Law. Topic two is short but full of easy marks: airworthiness and registration.
+T: Let's start with the certificate of airworthiness. Who issues it?
+K: The State of Registry: the State whose register the aircraft is on. In the EU, that's the authority of the Member State of registry, under the Part twenty-one regulation. And under Annex eight, the State of Registry also determines the aircraft's continuing airworthiness.
+T: Does the certificate expire?
+K: Not in the EU. It stays valid as long as it isn't surrendered, suspended or revoked, and the aircraft is maintained to the continuing-airworthiness rules, with a current airworthiness review certificate.
+T: Now registration. Annex seven starts with definitions, doesn't it?
+K: It does. An aircraft is any machine that can derive support in the atmosphere from the reactions of the air, other than the reactions of the air against the earth's surface.
+T: Which is the wording that rules out a hovercraft.
+K: Exactly. And a heavier-than-air aircraft derives its lift in flight chiefly from aerodynamic forces.
+T: Now the marks on the aircraft.
+K: There are three kinds of mark. The nationality mark comes from the radio call-sign series that the International Telecommunication Union allocates to each State. Ireland is E-I. The UK is G. The registration mark is assigned by the State of Registry. And the common mark, for international operating agencies, is assigned by ICAO.
+T: How are they written?
+K: Nationality mark first. If the registration mark starts with a letter, a hyphen separates them: E-I, hyphen, then the registration letters.
+T: Any combinations that aren't allowed?
+K: Yes. Anything that could be confused with distress or urgency signals, like S-O-S or PAN, plus five-letter combinations from the International Code of Signals and three-letter codes beginning with Q.
+T: Where do the marks go?
+K: On a heavier-than-air aircraft: on the lower surface of the wing, on the left half if possible, and on the fuselage between the wings and the tail, or on the vertical tail. The height is at least fifty centimetres on the wings, and at least thirty centimetres on the fuselage or tail.
+T: Fifty on the wings, thirty on the body.
+K: And finally, the identification plate. It's made of fireproof material, it shows at least the nationality or common mark and the registration mark, and it's fixed in a prominent position near the main entrance.
+[chime]
+K: Quiz time. Question one. Who issues the certificate of airworthiness?
+[pause 4]
+K: The State of Registry.
+K: Question two. Who allocates the nationality mark series to each State?
+[pause 4]
+K: The International Telecommunication Union.
+K: Question three. What is the minimum height of the marks on the wings?
+[pause 4]
+K: Fifty centimetres.
+T: Next, personnel licensing.
+[chime]

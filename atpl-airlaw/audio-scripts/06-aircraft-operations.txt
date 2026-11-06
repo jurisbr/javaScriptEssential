@@ -1,0 +1,48 @@
+TITLE: Aircraft operations
+SUBJECT: 010 06 Aircraft operations
+SUMMARY: PANS-OPS approaches, minima, missed approach and circling, holding and entries, altimeter setting, transponder and ACAS, and the Air Operations regulation.
+---
+[chime]
+K: Welcome back to Cleared for Theory, Air Law. Topic six is aircraft operations: mostly the ICAO procedures document called PANS-OPS.
+T: Start with the instrument approach.
+K: It has up to five segments: arrival, initial, intermediate, final and missed approach. The initial segment runs from the initial approach fix to the intermediate fix. The intermediate segment runs from there to the final approach fix, and it's where you sort out your speed and configuration. Then the final segment brings you down to land.
+T: Approach categories?
+K: They're based on V-A-T: one point three times the stall speed in landing configuration at maximum landing mass. Category A is under ninety-one knots. B is ninety-one to one twenty. C is one twenty-one to one forty. D is one forty-one to one sixty-five. And E is up to two hundred and ten.
+T: A few more numbers, please.
+K: A non-precision approach counts as straight-in if the final track is within thirty degrees of the runway. The ideal precision glide path is three degrees. And the minimum sector altitude gives one thousand feet of obstacle clearance within twenty-five nautical miles.
+T: Now the minima vocabulary.
+K: Decision altitude or height is for precision approaches. Decision height is measured from the threshold. Minimum descent altitude or height is for non-precision and circling approaches. And the obstacle clearance altitude is the floor: your operating minima are never lower than it.
+T: And when I reach the minimum with nothing in sight?
+K: At the missed approach point, without the visual reference you need, you go around. If you start the go-around early, you fly to the missed approach point first, then follow the procedure. You may cross that point higher than published, but never lower. If the ILS glide path fails, the approach becomes a localiser-only, non-precision approach.
+T: Circling?
+K: You descend below the minimum only with the runway environment in sight and a landing possible. If you lose sight while circling, make a climbing turn towards the landing runway, get overhead, then join the missed approach.
+T: Holding next.
+K: Turns use three degrees per second or twenty-five degrees of bank, whichever needs less bank. The outbound leg is one minute up to fourteen thousand feet, and one and a half minutes above. Start timing over or abeam the fix, whichever comes later.
+T: Speed limits in the hold?
+K: Up to fourteen thousand feet, two hundred and thirty knots. Up to twenty thousand, two hundred and forty. Up to thirty-four thousand, two hundred and sixty-five. Above that, Mach point eight three.
+T: The entries. Explain them so I can do it in my head.
+K: Take a right-hand hold with inbound track C. If your heading is between C minus seventy and C plus one hundred and ten, you enter direct. Between C plus one hundred and ten and C plus one eighty, it's an offset entry: fly out thirty degrees off the reciprocal, on the holding side. And from C plus one eighty round to C minus seventy, it's a parallel entry.
+T: So with inbound zero nine zero, a heading of three hundred is parallel.
+K: Correct. Now the altimeter. QNH gives altitude, QFE gives height above the aerodrome, and ten thirteen point two gives flight levels, which are five hundred feet apart.
+T: When do I switch?
+K: Climbing, change to standard at the transition altitude. Descending, change back to QNH at the transition level. The space between them is the transition layer. Climbing through it, you talk in flight levels. Descending through it, you talk in altitudes. The transition altitude is normally at least three thousand feet above the aerodrome, rounded up to the next thousand feet. Air traffic control sets the transition level and passes it with the approach clearance or on the ATIS. QNH is always rounded down to the whole hectopascal.
+T: The transponder codes.
+K: Seven five zero zero is unlawful interference. Seven six zero zero is radio failure. Seven seven zero zero is emergency. Without other instructions, ICAO says squawk two zero zero zero. In Europe, VFR traffic uses seven zero zero zero. Keep Mode C on, and only squawk ident when asked. In an emergency, if ATC has already given you a code, you normally keep it.
+T: And the collision avoidance system, ACAS?
+K: A traffic advisory is a warning only: don't manoeuvre on it. A resolution advisory you follow promptly, even against an ATC instruction. Then you tell ATC, and once clear of conflict, you return to your clearance.
+T: Parallel runways?
+K: In independent parallel approaches, there's a no transgression zone between the two localisers. If an aircraft enters it, the controller steps in.
+T: And the Air Operations regulation?
+K: Regulation nine six five of twenty twelve covers commercial and non-commercial flying. Remember two of its parts. Part S-P-A covers operations that need a specific approval, such as RVSM, low-visibility operations or dangerous goods. Part N-C-O covers non-commercial flying with simple aircraft.
+[chime]
+K: Quiz time. Question one. An aircraft has a V-A-T of one hundred and thirty knots. Which approach category is it?
+[pause 4]
+K: Category C.
+K: Question two. Below fourteen thousand feet, how long is the outbound leg of a hold?
+[pause 4]
+K: One minute.
+K: Question three. When climbing, where do you set ten thirteen?
+[pause 4]
+K: At the transition altitude.
+T: Next, air traffic services.
+[chime]

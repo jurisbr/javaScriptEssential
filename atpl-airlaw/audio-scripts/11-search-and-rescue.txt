@@ -1,0 +1,25 @@
+TITLE: Search and rescue
+SUBJECT: 010 11 Search and rescue
+SUMMARY: Annex 12: the rescue coordination centre, what to do first on scene or on hearing a distress call, and the ground-to-air signals used by survivors.
+---
+[chime]
+K: Welcome back to Cleared for Theory, Air Law. Topic eleven is search and rescue, from ICAO Annex twelve.
+T: Who runs it?
+K: Each State provides search and rescue twenty-four hours a day within its search and rescue regions. A rescue coordination centre organises the service and coordinates operations in each region. The emergency phases are the same three as before: uncertainty, alert and distress.
+T: What if I'm the first pilot to arrive at an accident?
+K: Keep the aircraft in distress in sight, fix its position, and report to the rescue coordination centre or air traffic services. Tell them the type of craft, the position, and the number and condition of the survivors. Then follow their instructions.
+T: And if I just hear a distress call?
+K: Record the position, take a bearing if you can, and tell the rescue centre or air traffic services. Then, at your discretion, head for the position.
+T: Now the signals that survivors lay out on the ground.
+K: There are five. V means: require assistance. X means: require medical assistance. N means no, and Y means yes. And an arrow means: we are going in this direction.
+T: V for help, X for medical help.
+K: And to show you've understood a ground signal: rock your wings by day, or flash your landing or navigation lights twice at night. If you don't acknowledge, it means you didn't understand.
+[chime]
+K: Quiz time. Question one. What does a V laid out on the ground mean?
+[pause 4]
+K: Require assistance.
+K: Question two. How do you acknowledge a ground signal by day?
+[pause 4]
+K: Rock your wings.
+T: Next, security.
+[chime]

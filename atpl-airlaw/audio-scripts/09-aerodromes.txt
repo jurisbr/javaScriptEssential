@@ -1,0 +1,42 @@
+TITLE: Aerodromes
+SUBJECT: 010 09 Aerodromes
+SUMMARY: Annex 14: reference code, declared distances, markings and signs, lights and PAPI, signal-area symbols, obstacles and rescue and firefighting.
+---
+[chime]
+K: Welcome back to Cleared for Theory, Air Law. Topic nine is aerodromes. A lot of it is colours, so it's easier than it looks.
+T: Start with the aerodrome reference code.
+K: It has a number and a letter. The number, one to four, comes from the aeroplane's reference field length. Four means eighteen hundred metres or more. The letter, A to F, comes from the wingspan. C means from twenty-four up to, but not including, thirty-six metres.
+T: Pavement strength?
+K: An aircraft can use a pavement without restriction when its A-C-N, the aircraft classification number, is equal to or less than the pavement's P-C-N. For light aircraft of five thousand seven hundred kilograms or less, the authority reports a maximum mass and tyre pressure instead.
+T: Declared distances.
+K: TORA is the runway length available for the take-off run. TODA adds the clearway. ASDA adds the stopway. And LDA is the length available for the landing run, which a displaced threshold reduces.
+T: So clearway for climbing, stopway for stopping.
+K: Exactly. A clearway is an area over which you can make part of your initial climb. A stopway is a prepared area where you can stop after an abandoned take-off. The runway strip surrounds the runway to protect anyone who runs off it, and the runway end safety area is beyond the strip's end.
+T: Markings.
+K: Runway markings are white. Taxiway markings are yellow. The runway number is the magnetic direction divided by ten, so a runway on two hundred and forty-seven degrees is runway twenty-five. A closed runway gets a white cross. A closed taxiway gets a yellow cross. And yellow chevrons mark a surface before the threshold that isn't fit to use.
+T: The holding points.
+K: Pattern A is two solid lines and two dashed lines, and you stop at the solid lines. It comes with a runway designation sign. Pattern B looks like a ladder. It's used at precision approach runways, and it comes with a category one, two or three holding sign.
+T: Signs.
+K: Mandatory signs are white writing on red. They're the only red signs on the airfield. A location sign, which tells you where you are, is yellow writing on black. Direction signs are black writing on yellow.
+T: Lights. This is the colourful part.
+K: Threshold lights are green and runway end lights are red. Runway edge lights are white, but on an instrument runway the last six hundred metres, or the last third if that's shorter, are yellow. Runway centre-line lights are white, then alternate red and white from nine hundred metres to three hundred metres before the end, then red for the last three hundred. Taxiway centre lines are green, and taxiway edges are blue.
+T: And the PAPI?
+K: Four lights beside the runway. Two white and two red means you're on the slope. Three white means slightly high, and four white means too high. Three red means slightly low, and four red means too low. The short version, the APAPI, has two lights. On the slope it shows one red and one white.
+T: Approach lights and the beacon?
+K: A simple approach lighting system extends at least four hundred and twenty metres, with a crossbar at three hundred metres. A precision category one system extends nine hundred metres. The aerodrome beacon at a land aerodrome flashes white, or white alternating with green.
+T: The signal area.
+K: A white dumb-bell means: land, take off and taxi on runways and taxiways only. A red square with two yellow diagonals means landing is prohibited, and the prohibition is likely to last. With a single yellow diagonal, it means take special care when landing. And a landing T means land along the shaft, towards the crossbar.
+T: Finally, obstacles and rescue.
+K: Obstacles are marked in orange and white, or red and white. Low-intensity obstacle lights on fixed objects are steady red, and high-intensity ones flash white. Emergency vehicles flash blue, and other vehicles flash yellow. The rescue and firefighting category depends on the length of the longest aeroplanes using the aerodrome and their fuselage width. Firefighters must reach any point on the runway within three minutes.
+[chime]
+K: Quiz time. Question one. What is TODA?
+[pause 4]
+K: TORA plus the clearway.
+K: Question two. What colour are taxiway edge lights?
+[pause 4]
+K: Blue.
+K: Question three. On a PAPI you see one white and three red. Where are you?
+[pause 4]
+K: Slightly below the glide path.
+T: Next, the four short topics: facilitation, search and rescue, security, and accident investigation.
+[chime]

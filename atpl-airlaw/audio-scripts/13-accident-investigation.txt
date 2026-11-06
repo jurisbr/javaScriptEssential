@@ -1,0 +1,31 @@
+TITLE: Accident investigation
+SUBJECT: 010 13 Accident investigation
+SUMMARY: Annex 13: the purpose of investigation, what counts as an accident or serious incident, injury definitions, who investigates, reports, and EU occurrence reporting.
+---
+[chime]
+K: Welcome back to Cleared for Theory, Air Law. This is the last topic: accident and incident investigation, ICAO Annex thirteen.
+T: What is an investigation for?
+K: Its sole objective is to prevent future accidents and incidents. It is not there to apportion blame or liability.
+T: What counts as an accident?
+K: An occurrence between people boarding to fly and leaving the aircraft, where one of three things happens. First, someone is killed or seriously injured by being in, or in contact with, the aircraft, or by jet blast. Second, the aircraft suffers damage that affects its strength, performance or handling and would need a major repair. Third, the aircraft is missing or can't be reached.
+T: What damage doesn't count?
+K: Damage limited to a single engine, propellers, wing tips, antennas, tyres, brakes, fairings, or small dents. And a serious incident is one where there was a high probability of an accident. The only difference from an accident is the outcome.
+T: And the injury definitions?
+K: A fatal injury means death within thirty days. A serious injury includes a hospital stay of more than forty-eight hours, starting within seven days, most broken bones, serious burns, and internal injuries.
+T: Who runs the investigation?
+K: The State of Occurrence, where it happened, though it may delegate. The States of Registry, Operator, Design and Manufacture can send accredited representatives. A preliminary report is due within thirty days. The final report should be public within twelve months. If it isn't ready, an interim statement is published on each anniversary.
+T: And the EU rules?
+K: Regulation nine nine six of twenty ten sets up independent national investigation bodies. Regulation three seven six of twenty fourteen covers occurrence reporting. Mandatory reports go in within seventy-two hours, and voluntary reporting is encouraged under a just culture.
+[chime]
+K: Quiz time. Question one. What is the sole objective of an accident investigation?
+[pause 4]
+K: To prevent future accidents and incidents.
+K: Question two. Within how many days must death occur for an injury to count as fatal?
+[pause 4]
+K: Thirty days.
+K: Question three. What's the difference between an accident and a serious incident?
+[pause 4]
+K: Only the outcome.
+T: That's all twelve topics of Air Law.
+K: Well done. Now open the app, practise the questions, and when every topic is green, sit the mock exam. Good luck.
+[chime]

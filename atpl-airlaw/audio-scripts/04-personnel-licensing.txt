@@ -1,0 +1,44 @@
+TITLE: Personnel licensing
+SUBJECT: 010 04 Personnel licensing
+SUMMARY: Annex 1 and Part-FCL, licence ages and privileges, rating validity, recency, the age 60 and 65 rules, and Part-MED.
+---
+[chime]
+K: Welcome back to Cleared for Theory, Air Law. Topic four is personnel licensing: your own licence, so it matters twice.
+T: Where do the rules come from?
+K: ICAO Annex one sets the minimum international standards. In the EU they're implemented by the Aircrew Regulation, number eleven seventy-eight of twenty eleven. Its Annex one is Part-FCL, flight crew licensing. Its Annex four is Part-MED, the medical rules.
+T: Let's start with some definitions.
+K: First, category, class and type. A category is the broad kind of aircraft: aeroplane, helicopter, airship, sailplane or balloon. A class covers single-pilot aircraft that don't need a type rating, like single-engine piston land. A type is a specific aircraft that needs its own rating, like the A three twenty.
+T: And flight time?
+K: For aeroplanes, it runs from the moment the aircraft first moves for the purpose of taking off until it finally comes to rest at the end of the flight. And night is the time between the end of evening civil twilight and the beginning of morning civil twilight.
+T: Now the licences.
+K: Minimum ages: private pilot licence, seventeen. Commercial, eighteen. Airline transport, twenty-one.
+T: Seventeen, eighteen, twenty-one.
+K: A CPL holder can be PIC or co-pilot in operations other than commercial air transport, PIC in commercial air transport of a single-pilot aeroplane, and co-pilot in commercial air transport. An ATPL holder can be PIC in commercial air transport, including multi-pilot aeroplanes. The ATPL needs at least fifteen hundred hours, including at least five hundred in multi-pilot operations.
+T: And the MPL?
+K: The multi-crew pilot licence lets you act as co-pilot of an aeroplane that must be operated with a co-pilot. It's built for airline training.
+T: What else do I need, beyond the licence itself?
+K: Part-FCL says you can use your privileges only while your ratings and your medical certificate are valid. When you fly, you carry your licence, your medical certificate, and a personal ID with a photo.
+T: What about language?
+K: You need a language proficiency endorsement to use the radio. Level four must be re-evaluated every four years, and level five every six years. Level six, expert, needs no re-evaluation.
+T: And recency, to carry passengers?
+K: Three take-offs, approaches and landings in the preceding ninety days, in the same type or class, or in a full flight simulator.
+T: Three in ninety. And the age rules?
+K: From sixty to sixty-four, you may fly commercial air transport only as a member of a multi-pilot crew. At sixty-five or older, no commercial air transport at all.
+T: Now ratings. How long do they last?
+K: A single-engine piston class rating lasts twenty-four months. A multi-engine piston class rating, a type rating and an instrument rating each last twelve months. If you revalidate in the three months before expiry, the new validity counts from the old expiry date, so you lose nothing.
+T: And the medical side?
+K: Commercial licences need a Class one medical. It's valid for twelve months, reduced to six months if you're forty or over and fly single-pilot commercial air transport with passengers, or once you're sixty.
+T: What if I get ill, or need an operation?
+K: Then you don't exercise your privileges, and you seek aero-medical advice without undue delay. That applies after surgery, regular medication, significant illness or injury, pregnancy, a hospital admission, or if you need glasses for the first time.
+[chime]
+K: Quiz time. Question one. What is the minimum age for an ATPL?
+[pause 4]
+K: Twenty-one.
+K: Question two. How long is an instrument rating valid?
+[pause 4]
+K: One year.
+K: Question three. To carry passengers, how many take-offs, approaches and landings do you need, and in what period?
+[pause 4]
+K: Three, in the preceding ninety days.
+T: Next, the rules of the air.
+[chime]

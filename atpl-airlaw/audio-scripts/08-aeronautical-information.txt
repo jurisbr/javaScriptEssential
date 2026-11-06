@@ -1,0 +1,30 @@
+TITLE: Aeronautical information
+SUBJECT: 010 08 Aeronautical information
+SUMMARY: Annex 15: the AIP and its parts, amendments and supplements, NOTAM and ASHTAM, AIC, the AIRAC cycle, and pre-flight information.
+---
+[chime]
+K: Welcome back to Cleared for Theory, Air Law. Topic eight is aeronautical information. It's a short topic with predictable questions.
+T: What's the main publication?
+K: The AIP, the aeronautical information publication. It has three parts: GEN, which is general, E-N-R, which is en-route, and A-D, which is aerodromes. GEN also lists each State's differences from ICAO standards.
+T: How does the AIP get changed?
+K: Permanent changes come as AIP Amendments. Temporary changes lasting three months or more, or short-term information with a lot of text or graphics, come as AIP Supplements.
+T: And NOTAMs?
+K: A NOTAM is sent by telecommunication. It announces that a facility, service, procedure or hazard has been set up or changed, when pilots need to know quickly. An ASHTAM is a special NOTAM about volcanic ash.
+T: What about the circulars?
+K: An aeronautical information circular, or A-I-C, carries information that fits neither the AIP nor a NOTAM. That means long-term forecasts of major changes in rules, explanations, advice, and administrative matters.
+T: And AIRAC?
+K: AIRAC bundles significant changes onto common effective dates every twenty-eight days. The information is sent out at least forty-two days ahead, so it reaches users at least twenty-eight days before. For major changes, fifty-six days ahead is recommended.
+T: Twenty-eight, forty-two, fifty-six.
+K: Two more facts. If an information service isn't open twenty-four hours, it must be available while aircraft are flying in its area, plus at least two hours before and after. And before a flight you get a pre-flight information bulletin, which summarises the current NOTAMs. After the flight, report any problems with facilities, and any birds you saw, back to the information service.
+[chime]
+K: Quiz time. Question one. Name the three parts of the AIP.
+[pause 4]
+K: GEN, E-N-R and A-D.
+K: Question two. How is a temporary change lasting three months or more published?
+[pause 4]
+K: As an AIP Supplement.
+K: Question three. How often do AIRAC dates come round?
+[pause 4]
+K: Every twenty-eight days.
+T: Next, aerodromes.
+[chime]
