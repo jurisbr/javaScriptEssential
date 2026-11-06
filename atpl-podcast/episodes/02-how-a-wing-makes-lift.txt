@@ -1,0 +1,63 @@
+TITLE: How a wing makes lift
+SUBJECT: 081 Principles of Flight
+SUMMARY: The four forces, two ways to explain lift, the lift formula, angle of attack, and why a wing stalls at an angle rather than a speed.
+KEY: Straight and level at constant speed: lift = weight, thrust = drag (no acceleration, not "no motion").
+KEY: Lift = CL x 1/2 rho V squared x S. The middle part is dynamic pressure.
+KEY: Double the speed (same angle of attack and density) and you get 4 times the lift.
+KEY: Angle of attack = angle between the chord line and the relative airflow, NOT the pitch attitude.
+KEY: A wing always stalls at the critical angle of attack (about 15-16 degrees on a typical light aircraft), at any speed, attitude or weight.
+KEY: Stall speed rises with the square root of the load factor. A 60 degree level turn gives n = 2, so the stall speed is about 41% higher.
+---
+[chime]
+K: Welcome back to Cleared for Theory. This is episode two, and we're starting subject zero eight one, principles of flight, with the most important question in the whole subject: how does a wing make lift?
+T: I thought I knew this one. The air goes faster over the top, the pressure drops, and the wing gets sucked upwards.
+K: That's part of it, and we'll get there. But let's start with the big picture: the four forces. Lift acts upwards, at right angles to the airflow. Weight acts straight down, towards the centre of the earth. Thrust pulls the aeroplane forwards, and drag holds it back.
+T: And in the cruise, they're balanced.
+K: In straight and level flight at a constant speed, yes. Lift equals weight, and thrust equals drag. Remember the words "at a constant speed". Balanced forces don't mean the aeroplane has stopped. They mean it isn't accelerating. That's Newton's first law, and examiners love to test it.
+T: Okay. So, lift. Where does it actually come from?
+K: There are two ways of describing it, and they're two views of the same physics. The first is the pressure view. As the air flows around the wing, it speeds up over the curved upper surface. Bernoulli's principle tells us that in a steady flow, where the air speeds up, its static pressure falls. So the pressure above the wing is lower than the pressure below it, and that pressure difference, acting over the whole wing area, is the lift.
+T: And the second view?
+K: The momentum view. The wing deflects a large mass of air downwards. That's called downwash. And by Newton's third law, if the wing pushes the air down, the air pushes the wing up.
+T: So which one is correct?
+K: Both. Bernoulli describes the pressures, and Newton describes the momentum, of one and the same flow. What you should throw away is a popular myth: the idea that the air going over the top has to meet the air going underneath at the trailing edge at the same moment. It doesn't. In fact, the air over the top usually gets there first.
+T: I definitely learned that at school.
+K: Most people did. Now, the most important idea in this subject: angle of attack. Say it with me.
+T: Angle of attack.
+K: The angle of attack is the angle between the chord line of the wing, which is an imaginary straight line from the leading edge to the trailing edge, and the relative airflow, which is the direction the air is coming from as the aircraft moves through it.
+T: Is that the same as where the nose is pointing?
+K: No, and that's the classic trap. Where the nose points relative to the horizon is the pitch attitude. The angle of attack is measured relative to the airflow. In a steady climb, the nose can be high while the angle of attack is quite modest. And when pulling out of a dive, the nose can be low while the angle of attack is high.
+T: So the wing only cares about the air.
+K: Exactly. Now we can put it all together with the lift formula. Lift equals C-L, times one half rho V squared, times S.
+T: That's a lot of letters.
+K: Let's take them one at a time. S is the wing area, which is easy. Rho is the air density. V is the true airspeed. And the part in the middle, one half rho V squared, has its own name: dynamic pressure. It's the pressure the air exerts because it's moving.
+T: And C-L?
+K: C-L is the lift coefficient. It tells you how good the wing is at turning dynamic pressure into lift. It depends mainly on the angle of attack, and on the shape of the wing, including the flaps. Increase the angle of attack, and C-L goes up, steadily, almost in a straight line.
+T: So if I want more lift, I can fly faster, or increase the angle of attack.
+K: Right. And look at the V squared. If you double your speed, at the same angle of attack and the same density, the lift doesn't double. It goes up four times.
+T: Four times. That sounds like a quiz question.
+K: It is. One more useful link: the airspeed indicator works by measuring dynamic pressure. So indicated airspeed is really a measure of that one half rho V squared. That's why the important speeds in your flight manual, like the stall speed, are given as indicated airspeeds. At the same indicated speed, the wing feels roughly the same dynamic pressure, whatever the altitude.
+T: Okay. So C-L keeps climbing as I raise the angle of attack. Does it go on forever?
+K: No, and that's the stall. C-L rises until it reaches a maximum, called C-L max, at the critical angle of attack. For a typical light aircraft wing, that's somewhere around fifteen or sixteen degrees. Beyond that, the airflow can no longer follow the curved upper surface. It separates and becomes turbulent, and the lift falls away sharply.
+T: So a stall is about angle, not speed.
+K: That's the single most important sentence in this episode. A wing always stalls at the same critical angle of attack, whatever the speed, whatever the attitude, and whatever the weight. You can stall at high speed, with the nose down, if you pull hard enough.
+T: Then why does everyone talk about a stall speed?
+K: Because in level flight, at a given weight, there's a speed at which you need the critical angle of attack just to hold the aircraft up. That's the stall speed. Change the weight or the load, and the stall speed changes. The critical angle doesn't.
+T: How much does the stall speed change?
+K: It goes up with the square root of the load factor. The load factor, written as the letter n, is lift divided by weight. In level flight, it's one. In a level turn at sixty degrees of bank, the wing has to produce twice the aircraft's weight, so n is two. The square root of two is about one point four one, so the stall speed goes up by about forty-one percent.
+T: So an aeroplane that stalls at fifty knots in level flight would stall at about seventy knots in a sixty degree turn.
+K: Spot on. And the same square root rule applies to weight. A heavier aircraft needs more lift, so it stalls at a higher speed.
+T: That explains why turning steeply close to the ground is so dangerous.
+K: It does. Let's recap. Four forces, balanced in steady flight. Lift is a pressure difference, which is the same thing as the wing pushing air downwards. Lift equals C-L times dynamic pressure times wing area, and it goes up with the square of the speed. And a wing stalls at the critical angle of attack, never at a fixed speed.
+[chime]
+K: Quiz time. Question one. You double your true airspeed, keeping the same angle of attack and the same air density. What happens to the lift?
+[pause 4]
+K: It increases four times, because lift is proportional to V squared.
+K: Question two. What exactly is the angle of attack?
+[pause 4]
+K: The angle between the wing's chord line and the relative airflow. Not the pitch attitude.
+K: Question three. In a level turn at sixty degrees of bank, what is the load factor, and what happens to the stall speed?
+[pause 4]
+K: The load factor is two, and the stall speed goes up by the square root of two, which is about forty-one percent.
+T: Got all three this time.
+K: Next episode, we leave the wing behind and look at the air itself: the standard atmosphere, and why your altimeter can lie to you.
+[chime]

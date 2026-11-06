@@ -1,0 +1,60 @@
+TITLE: Chicago 1944: where air law begins
+SUBJECT: 010 Air Law
+SUMMARY: The Chicago Convention and ICAO, the key ICAO Annexes, standards versus recommended practices, sovereignty, and the five freedoms of the air.
+KEY: Chicago Convention signed 7 December 1944, in force April 1947. It created ICAO (UN specialised agency, Montreal).
+KEY: ICAO writes Standards and Recommended Practices (SARPs) in 19 Annexes. States turn them into national law (in the EU, e.g. Part-FCL in the Aircrew Regulation).
+KEY: Annex 1 Licensing, 2 Rules of the Air, 6 Operations, 7 Registration, 8 Airworthiness, 11 ATS, 12 Search and Rescue, 13 Accident Investigation, 14 Aerodromes, 17 Security, 18 Dangerous Goods, 19 Safety Management.
+KEY: Standard = "shall". A state that differs must notify ICAO (Article 38). Recommended practice = "should".
+KEY: Article 1: complete and exclusive sovereignty over the airspace above a state's territory.
+KEY: Freedoms: 1 fly over, 2 technical stop, 3 home to foreign, 4 foreign to home, 5 between two foreign states on a service from home. 1-2: Transit Agreement; 1-5: Transport Agreement.
+---
+[chime]
+K: Welcome back to Cleared for Theory. Episode five starts subject zero one zero, air law. And air law starts with one meeting. In November and December nineteen forty-four, while the Second World War was still being fought, delegates from fifty-four nations met in Chicago to plan how civil aviation would work once the war was over.
+T: During the war? That's forward thinking.
+K: It was. The result was the Convention on International Civil Aviation, signed on the seventh of December, nineteen forty-four. Everyone calls it the Chicago Convention.
+T: And it's still in force today?
+K: It's the foundation of everything. It came into force in April nineteen forty-seven, and it created ICAO, the International Civil Aviation Organization, which is now a specialised agency of the United Nations, with its headquarters in Montreal.
+T: So what does ICAO actually do? It's not the police for airlines, is it?
+K: No. ICAO doesn't make laws that apply to you directly. It writes international standards, and each member state turns them into its own national law. In Europe, much of that is done through EASA and EU regulations. Your licence, for example, falls under the EU Aircrew Regulation, and the licensing part of it is called Part-FCL.
+T: Part-FCL. I've seen that everywhere.
+K: You'll live in it. Now, ICAO publishes its standards in Annexes to the Convention. There are nineteen of them, and you need to know the important ones by number.
+T: All nineteen?
+K: Know them all for the exam, but some come up constantly. Let's do the key ones. Annex one: personnel licensing. That covers licences, ratings, and medical standards.
+T: Annex one, licensing. Makes sense that pilots come first.
+K: Annex two: rules of the air. Annex six: operation of aircraft. Annex seven: aircraft nationality and registration marks. And Annex eight: airworthiness of aircraft.
+T: Two, rules of the air. Six, operations. Seven, registration. Eight, airworthiness.
+K: Annex eleven: air traffic services. Annex twelve: search and rescue. Annex thirteen: aircraft accident and incident investigation. And Annex fourteen: aerodromes.
+T: Thirteen for accidents. Unlucky thirteen. That's easy to remember.
+K: Exactly. Then Annex seventeen: security. Annex eighteen: the safe transport of dangerous goods by air. And Annex nineteen, the newest one: safety management.
+T: What's the difference between a standard and a recommended practice? I keep seeing the word SARPs.
+K: SARPs stands for Standards and Recommended Practices. A standard is something ICAO considers necessary. Member states shall comply, and if a state can't or won't, it must notify ICAO of the difference. That's under Article thirty-eight of the Convention. A recommended practice is something desirable. States should comply, but they aren't obliged to notify a difference.
+T: Shall for standards, should for recommended practices.
+K: That's the key. Now, one article worth knowing by heart. Article one: every state has complete and exclusive sovereignty over the airspace above its territory.
+T: So no one can fly over a country without its permission.
+K: Which is exactly the problem that the freedoms of the air solve. These are rights that states grant to each other's airlines. Two separate agreements were signed in Chicago alongside the Convention. The International Air Services Transit Agreement covers the first two freedoms, and the International Air Transport Agreement covers the first five.
+T: Okay, go through them.
+K: Imagine you work for an Irish airline. First freedom: the right to fly over another country without landing. Dublin to Rome, flying over France.
+T: Just passing over.
+K: Second freedom: the right to land in another country for non-traffic purposes. A technical stop, to refuel or for maintenance, without picking up or dropping off any passengers.
+T: Stop, but no customers.
+K: Third freedom: the right to carry passengers or cargo from your home country into another country. Dublin to Paris, dropping passengers off. Fourth freedom: the reverse, carrying them from the other country back to your home country. Paris to Dublin.
+T: Three is taking them out, four is bringing them home.
+K: And fifth freedom: the right to carry passengers between two foreign countries, as part of a service that starts or ends in your home country. So Dublin to Paris, then on to Rome, selling seats from Paris to Rome.
+T: And the sixth to ninth freedoms?
+K: Those are often called the so-called freedoms, because they aren't in the Chicago agreements. They include cabotage, which means carrying passengers within another country, for example Paris to Nice on an Irish airline. Within the European Union, the single aviation market allows that, but that's a European arrangement, not a Chicago freedom.
+T: So, a quick summary. One, fly over. Two, stop for fuel. Three, take them out. Four, bring them home. Five, carry on beyond.
+K: Perfect. Let's recap. The Chicago Convention, signed on the seventh of December, nineteen forty-four, created ICAO. ICAO writes standards and recommended practices in nineteen Annexes. Standards say shall, and differences must be notified. Article one gives every state sovereignty over its airspace. And the five freedoms let airlines work across borders.
+[chime]
+K: Quiz time. Question one. Which ICAO Annex covers personnel licensing?
+[pause 4]
+K: Annex one.
+K: Question two. Which Annex covers aircraft accident and incident investigation?
+[pause 4]
+K: Annex thirteen.
+K: Question three. An Irish airline flies Dublin to Paris to Rome, and sells tickets from Paris to Rome. Which freedom of the air is that?
+[pause 5]
+K: The fifth freedom: carrying passengers between two foreign countries, on a service that starts in the home country.
+T: And that's the end of our first season, isn't it?
+K: It is. One episode on the road to your licence, and one on each of four subjects. When you're ready, play the quizzes again a few days later. Answering from memory after a gap is when the learning really sticks.
+T: Thanks for listening to Cleared for Theory.
+[chime]

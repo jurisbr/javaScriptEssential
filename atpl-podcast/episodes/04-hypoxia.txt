@@ -1,0 +1,59 @@
+TITLE: Hypoxia: your body at altitude
+SUBJECT: 040 Human Performance
+SUMMARY: Why the percentage of oxygen doesn't change but its partial pressure does, the four types of hypoxia, symptoms, time of useful consciousness, cabin altitude, and hyperventilation.
+KEY: Air is about 78% nitrogen and 21% oxygen at every altitude. The partial pressure of oxygen falls with total pressure (Dalton's law).
+KEY: About half the sea-level pressure at 18,000 ft, so about half the oxygen partial pressure.
+KEY: Hypoxic (altitude), anaemic (blood can't carry: carbon monoxide, blood loss), stagnant (poor circulation: g forces, cold), histotoxic (cells can't use it: alcohol, poisons).
+KEY: Judgement is affected first, often with euphoria. Night vision can deteriorate from about 5,000 ft.
+KEY: Time of useful consciousness, roughly: FL250 3-5 min, FL300 1-2 min, FL350 30-60 s, FL400 15-20 s. Shorter after a rapid decompression.
+KEY: Cabin altitude max 8,000 ft in normal operation. If in doubt between hypoxia and hyperventilation, use oxygen.
+---
+[chime]
+K: Welcome back to Cleared for Theory. Episode four starts subject zero four zero, human performance and limitations. And we're going to talk about the most dangerous thing about altitude: hypoxia.
+T: Not enough oxygen.
+K: Not enough oxygen reaching the body's tissues, yes. And the dangerous part is that you usually don't notice it happening. Let's start with the air itself. What percentage of the atmosphere is oxygen?
+T: About twenty-one percent.
+K: Right. Roughly seventy-eight percent nitrogen, twenty-one percent oxygen, and about one percent other gases. Now, at twenty thousand feet, what percentage is oxygen?
+T: Less?
+K: That's the trap. It's still about twenty-one percent. The mixture stays the same as you climb. What changes is the pressure. Dalton's law says each gas in a mixture contributes its own share of the total pressure, called its partial pressure. So when the total pressure falls, the partial pressure of oxygen falls with it.
+T: And it's the partial pressure that pushes oxygen into the blood.
+K: Exactly. Oxygen moves from your lungs into your blood because of that pressure difference. At around eighteen thousand feet, the total pressure is about half of its sea level value, so the partial pressure of oxygen is also about half. Less pressure, and less oxygen gets into your blood.
+T: Okay. You mentioned there are types of hypoxia?
+K: There are four, and the exam likes to test which is which. First, hypoxic hypoxia. That's the altitude one: not enough oxygen pressure in the lungs.
+K: Second, anaemic hypoxia, sometimes called hypaemic. The air is fine, but the blood can't carry enough oxygen. Carbon monoxide is the classic cause, because it binds to haemoglobin far more readily than oxygen does. Smoking, a leaking cabin heater, blood loss and anaemia all fit here too.
+T: So carbon monoxide means anaemic.
+K: Yes. Third, stagnant hypoxia. The blood carries enough oxygen, but it isn't circulating properly. For example, under high g forces, or when your arms and legs are very cold.
+K: And fourth, histotoxic hypoxia. The oxygen is delivered, but the cells can't use it. Alcohol, and certain poisons such as cyanide, cause this.
+T: Hypoxic, anaemic, stagnant, histotoxic. Air, blood, flow, cells.
+K: That's a great way to remember it. Now, the symptoms. Why is hypoxia so dangerous?
+T: Because you don't feel it?
+K: Because it attacks the brain first, and your brain is the thing you'd need to notice it. Early symptoms include impaired judgement, slower thinking, poor coordination, and often a feeling of euphoria, a sense that everything is fine. Then come headache, dizziness, tingling, tunnel vision, and a blue tinge to the lips and fingernails, called cyanosis. And eventually, unconsciousness.
+T: Is anything affected early, at lower altitudes?
+K: Night vision. The retina is very sensitive to a lack of oxygen, and night vision can start to deteriorate from as low as five thousand feet.
+T: Now, I've heard of something called the time of useful consciousness.
+K: The time of useful consciousness is the time you have, after losing your oxygen supply, during which you can still act effectively, like putting on your oxygen mask. It's not the time until you pass out. It's the time until you stop being useful.
+T: How long is it?
+K: It falls steeply with altitude. Typical figures are around three to five minutes at twenty-five thousand feet, one to two minutes at thirty thousand, thirty to sixty seconds at thirty-five thousand, and only about fifteen to twenty seconds at forty thousand feet.
+T: Fifteen seconds. That's nothing.
+K: And after a rapid decompression, it's even shorter. Different textbooks quote slightly different figures, so learn the ones in your school's notes. But the lesson is always the same: if the cabin depressurises at cruising altitude, your oxygen mask goes on first, immediately, before you do anything else.
+T: Which is why the cabin is pressurised in the first place.
+K: Right. Airliners are pressurised so that the cabin altitude, the altitude the cabin air is equivalent to, stays at or below eight thousand feet in normal operation. You'll meet that number again in aircraft general knowledge.
+T: What about hyperventilation? I've heard it gets confused with hypoxia.
+K: It does. Hyperventilation is breathing too fast or too deeply, often because of stress or anxiety. You blow off too much carbon dioxide, and you get dizziness, tingling in the fingers and around the lips, and a strange feeling of unreality. Those symptoms overlap with hypoxia.
+T: So how do I tell them apart in the air?
+K: At altitude, you often can't, reliably. So the safe rule is: if in doubt, treat it as hypoxia, and use oxygen. If it turns out to be hyperventilation, consciously slowing your breathing will help, and so will talking, because talking naturally slows your breathing down.
+T: Got it.
+K: Recap. The proportion of oxygen stays at about twenty-one percent, but its partial pressure falls as you climb. There are four types of hypoxia: hypoxic, anaemic, stagnant and histotoxic. The symptoms are sneaky, because they hit your judgement first. The time of useful consciousness shrinks fast with altitude. And when in doubt, oxygen.
+[chime]
+K: Quiz time. Question one. What percentage of the air is oxygen at twenty thousand feet?
+[pause 4]
+K: Still about twenty-one percent. It's the partial pressure that falls, not the percentage.
+K: Question two. Carbon monoxide poisoning causes which type of hypoxia?
+[pause 4]
+K: Anaemic hypoxia. Carbon monoxide stops the blood from carrying oxygen.
+K: Question three. Roughly what is the time of useful consciousness at thirty-five thousand feet?
+[pause 4]
+K: About thirty to sixty seconds. And less after a rapid decompression.
+T: That one is going to stay with me.
+K: Next episode, we go back to where aviation law began: a conference in Chicago, in nineteen forty-four.
+[chime]

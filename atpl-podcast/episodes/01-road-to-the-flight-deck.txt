@@ -1,0 +1,69 @@
+TITLE: The road to the flight deck
+SUBJECT: Introduction
+SUMMARY: What the 13 ATPL theory exams are, how a "frozen ATPL" works, the exam rules you must know, and how to study.
+KEY: PPL = fly privately (9 theory exams). CPL = fly for pay. ATPL = airline captain.
+KEY: Frozen ATPL = CPL + instrument rating + all 13 ATPL theory exams passed. It unfreezes at 1,500 hours (incl. 500 multi-pilot) plus a skill test.
+KEY: Multiple choice, 4 options, no negative marking, 75% pass mark in every subject.
+KEY: EASA limits: 18 months, max 6 sittings, max 4 attempts per subject. Break one and you start the whole set again.
+KEY: Passes stay valid for 36 months for issuing a CPL or instrument rating.
+KEY: You must be enrolled with an approved training organisation (ATO). Get your Class 1 medical first.
+---
+[chime]
+K: Hello, and welcome to Cleared for Theory, a study podcast for the airline pilot theory exams. I'm Kate, and I'll be your instructor.
+T: And I'm Tom. I'm the student here, so I'll be asking the questions you're probably asking yourself.
+K: This first episode is the map. Before we get into lift, weather and air law, we need to know exactly what we're studying for, and how the exams work. Get this right, and you'll save yourself a lot of time and money.
+T: Okay, so let's start with the confusing bit. People talk about a private licence, a commercial licence, and an ATPL. What's the difference?
+K: Good place to start. There are three licences that matter here. First, the PPL, the private pilot licence. That lets you fly for fun, and take friends along, but never for pay. The theory for it is nine exams, at a fairly basic level.
+T: Nine exams. Got it.
+K: Second, the CPL, the commercial pilot licence. That's the one that lets you be paid to fly. And third, the ATPL, the airline transport pilot licence. That's the licence an airline captain holds.
+T: So where do the thirteen exams come in?
+K: The thirteen exams are the ATPL theory exams. And here's the clever part. Most airline pilots pass the ATPL theory right at the start of their career, long before they have the experience to hold the full licence. They then complete their flight training and get a CPL with an instrument rating. Put that together with the thirteen passed exams, and you have what everyone calls a frozen ATPL.
+T: Frozen, because it's waiting.
+K: Exactly. It unfreezes once you have the experience. Under EASA rules, that's at least fifteen hundred hours of flight time, including at least five hundred hours in multi-pilot operations, plus a skill test. So the frozen ATPL gets you hired as a first officer, and the hours turn you into a captain.
+T: And if I pass the ATPL theory, I don't need to sit the nine PPL exams separately, do I?
+K: Under EASA rules, passing the ATPL theory exams credits you with the theory for the lower licences, in the same category of aircraft. But in practice, most people do the PPL first anyway, so they're flying while they study. Check what your training school expects.
+T: Right. So what are the thirteen subjects?
+K: Let's go through them in groups, because they hang together better that way. Each one has a number, and you'll see these numbers everywhere.
+K: First, the aircraft group. Zero two one, aircraft general knowledge: the airframe, the systems, and the engines. Zero two two, instrumentation. And zero eight one, principles of flight, which is the aerodynamics.
+T: So that's how the aeroplane works.
+K: Then the flight preparation group. Zero three one, mass and balance. Zero three two, performance. And zero three three, flight planning and monitoring. These are the calculation subjects, with lots of graphs and tables.
+T: I'm guessing those are the ones people dread.
+K: Some do. But they're very learnable, because they're all about method. Next, navigation. Zero six one, general navigation: maps, the shape of the earth, time, and the triangle of velocities. And zero six two, radio navigation: VOR, the instrument landing system, satellite navigation, and radar.
+T: Then?
+K: The environment. Zero five zero, meteorology, which is the biggest subject by far. And zero four zero, human performance and limitations: your body, your brain, and how pilots make mistakes.
+K: And finally, the rules. Zero one zero, air law. Zero seven zero, operational procedures. And zero nine zero, communications: radio phraseology for both visual and instrument flight.
+T: So: aircraft, preparation, navigation, environment, and rules. Thirteen subjects.
+K: Perfect. Now, how the exams actually work. They're computer-based, and you sit them at an exam centre run or approved by the authority. In Ireland, that's the Irish Aviation Authority. Every question is multiple choice, with four options, and only one of them is correct.
+T: Is there negative marking? Do I lose points for a wrong answer?
+K: No. A wrong answer simply scores zero, so never leave a question blank. The pass mark is seventy-five percent, in each subject.
+T: Seventy-five. That's higher than most school exams.
+K: It is. And it's per subject, so a great score in meteorology can't rescue a weak score in air law. There are also some rules about time and attempts that you really need to know.
+T: Go on.
+K: Under the EASA rules, you have eighteen months to pass all thirteen subjects. The clock starts at the end of the calendar month in which you first sit an exam. Within that time, you're allowed a maximum of six sittings, and a maximum of four attempts at any single subject.
+T: And if I break one of those limits?
+K: Then your passes are cancelled, and you have to do further training and sit the complete set again. So strategy matters. Most schools split the thirteen subjects into modules, and you sit a few at a time, when you're genuinely ready.
+T: And once I've passed everything, do the passes last forever?
+K: No, and this catches people out. For the issue of a CPL or an instrument rating, the passes are valid for thirty-six months, counted from the end of the month in which you passed your final exam. So don't pass everything and then wait years before you start flight training.
+T: Noted. Can I just book the exams myself and self-study?
+K: Not under EASA. You have to be enrolled on a theory course with an approved training organisation, an ATO. The school checks that you've completed the course, and recommends you for the exams. Many schools offer distance learning, so you study at home and go in for some classroom days.
+T: And before all of that?
+K: Before you spend serious money, get your class one medical. It's the medical certificate for commercial pilots, and it's far better to find out about any issue now than after you've paid for training.
+T: One more thing. I want to work in both the European Union and the UK. Does one licence cover both?
+K: Since Brexit, no. The UK Civil Aviation Authority runs its own system, separate from EASA, so you'd need a licence from each. The rules on how exam passes and licences carry across have changed more than once since twenty twenty-one, so check the current position with both authorities before you plan around it.
+T: Got it. So how should I actually study for this? Thirteen subjects sounds like a lot.
+K: It is a lot, so here are three habits. One: understand before you memorise. If you understand why the altimeter reads wrong in cold air, you'll answer five different versions of that question correctly. Two: little and often. Twenty minutes a day beats a five hour cram on a Sunday. And three: practise retrieval. Close the book, and try to answer from memory, because that's exactly what the exam asks you to do. That's why every episode of this podcast ends with a short quiz.
+T: Speaking of which.
+[chime]
+K: Quiz time. I'll ask the question, you'll get a few seconds to think, and then I'll give you the answer. Question one. What is the pass mark in each ATPL theory subject?
+[pause 4]
+K: Seventy-five percent, in every subject.
+K: Question two. What is a frozen ATPL?
+[pause 4]
+K: A commercial pilot licence with an instrument rating, plus all thirteen ATPL theory exams passed. It unfreezes once you have the experience, at least fifteen hundred hours, and pass the skill test.
+K: Question three. Under the EASA rules, how many attempts are you allowed at a single subject, and how many sittings in total?
+[pause 4]
+K: Four attempts per subject, and six sittings in total, all within eighteen months.
+T: Three out of three. Well, two and a half.
+K: That'll do for episode one. Next time, we start on the aerodynamics: how a wing actually makes lift.
+T: See you then.
+[chime]

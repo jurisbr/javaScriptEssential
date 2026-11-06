@@ -1,0 +1,423 @@
+<title>Cleared for Theory</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=B612:wght@400;700&family=B612+Mono:wght@400;700&display=swap">
+<style>
+/* Layout: one column. Episodes are printed as ATC flight-progress strips on a strip board,
+   show notes and a live transcript sit below, and the player docks at the bottom like a radio stack. */
+:root {
+  --bg: #e8edf1;
+  --panel: #f8fafb;
+  --ink: #142231;
+  --muted: #55657a;
+  --rule: #c7d1da;
+  --strip: #f3e8c3;
+  --strip-edge: #d8c68c;
+  --accent: #a95500;
+  --accent-ink: #ffffff;
+  --accent-soft: rgba(169, 85, 0, 0.12);
+  --display: "B612", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --body: "Atkinson Hyperlegible", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --mono: "B612 Mono", ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+  --player-h: 148px;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0d141b; --panel: #15202a; --ink: #e3e9ef; --muted: #96a6b6; --rule: #283743;
+    --strip: #2b2817; --strip-edge: #4b4527; --accent: #f0a53a; --accent-ink: #1b1204;
+    --accent-soft: rgba(240, 165, 58, 0.14); color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0d141b; --panel: #15202a; --ink: #e3e9ef; --muted: #96a6b6; --rule: #283743;
+  --strip: #2b2817; --strip-edge: #4b4527; --accent: #f0a53a; --accent-ink: #1b1204;
+  --accent-soft: rgba(240, 165, 58, 0.14); color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+body {
+  background: var(--bg); color: var(--ink); font-family: var(--body); font-size: 16px; line-height: 1.55;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  padding-block: 28px calc(var(--player-h) + 32px + env(safe-area-inset-bottom, 0px));
+}
+.wrap { max-width: 760px; margin: 0 auto; display: grid; gap: 32px; }
+h1, h2, h3 { font-family: var(--display); line-height: 1.2; text-wrap: balance; margin: 0; }
+button { font: inherit; color: inherit; }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+/* Masthead */
+.mast { display: grid; gap: 10px; }
+.eyebrow { font-family: var(--mono); font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); }
+.mast h1 { font-size: clamp(32px, 7vw, 46px); letter-spacing: -0.01em; }
+.mast p { margin: 0; color: var(--muted); max-width: 60ch; }
+.freq { display: inline-flex; gap: 8px; align-items: baseline; font-family: var(--mono); font-size: 13px; color: var(--ink); }
+.freq b { color: var(--accent); font-weight: 700; }
+
+/* Strip board */
+.board { display: grid; gap: 10px; }
+.board-head { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; flex-wrap: wrap; }
+.board-head h2 { font-size: 15px; letter-spacing: 0.08em; text-transform: uppercase; }
+.board-head span { font-family: var(--mono); font-size: 12px; color: var(--muted); }
+.strip {
+  display: grid; grid-template-columns: 76px minmax(0, 1fr) 72px; width: 100%; text-align: left; cursor: pointer;
+  background: var(--strip); border: 1px solid var(--strip-edge); border-left: 6px solid var(--strip-edge);
+  border-radius: 3px; padding: 0; position: relative; overflow: hidden;
+}
+.strip > div { padding: 10px 12px; min-width: 0; }
+.strip > div + div { border-left: 1px solid var(--strip-edge); }
+.strip:hover { border-left-color: var(--accent); }
+.strip[aria-current="true"] { border-left-color: var(--accent); box-shadow: 0 0 0 1px var(--accent) inset; }
+.s-code { display: grid; align-content: center; gap: 2px; font-family: var(--mono); }
+.s-code b { font-size: 20px; line-height: 1; }
+.s-code small { font-size: 11px; color: var(--muted); letter-spacing: 0.06em; }
+.s-main h3 { font-size: 16px; }
+.s-main p { margin: 4px 0 0; font-size: 14px; color: var(--muted); line-height: 1.45; }
+.s-subj { font-family: var(--mono); font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--accent); margin-bottom: 2px; }
+.s-time { display: grid; align-content: center; justify-items: end; gap: 4px; font-family: var(--body); font-weight: 700; font-size: 14px; font-variant-numeric: tabular-nums; }
+.s-state { font-family: var(--mono); font-weight: 400; font-size: 10px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); }
+.strip[aria-current="true"] .s-state { color: var(--accent); }
+.s-prog { position: absolute; left: 0; bottom: 0; height: 3px; background: var(--accent); width: 0; opacity: 0.85; }
+
+/* Episode detail */
+.detail { display: grid; gap: 22px; }
+.detail-head { display: grid; gap: 6px; }
+.detail-head h2 { font-size: clamp(22px, 4.5vw, 28px); }
+.notes { background: var(--panel); border: 1px solid var(--rule); border-radius: 6px; padding: 16px 18px; display: grid; gap: 10px; }
+.notes h3, .tx-head h3 { font-size: 13px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); }
+.notes ul { margin: 0; padding-left: 20px; display: grid; gap: 6px; }
+.notes li::marker { color: var(--accent); }
+.tx-head { display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap; }
+.toggle { display: inline-flex; align-items: center; gap: 8px; font-size: 14px; color: var(--muted); cursor: pointer; }
+.toggle input { accent-color: var(--accent); width: 16px; height: 16px; }
+.tx { display: grid; gap: 2px; }
+.line {
+  display: grid; grid-template-columns: 52px minmax(0, 1fr); gap: 10px; padding: 8px 10px; border-radius: 4px;
+  cursor: pointer; border: 0; background: transparent; text-align: left; width: 100%;
+}
+.line:hover { background: var(--accent-soft); }
+.line.now { background: var(--accent-soft); box-shadow: inset 3px 0 0 var(--accent); }
+.who { font-family: var(--mono); font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); padding-top: 4px; }
+.line[data-s="Kate"] .who { color: var(--accent); }
+.said { max-width: 65ch; }
+
+/* Player */
+.player {
+  position: fixed; left: 0; right: 0; bottom: 0; z-index: 20; background: var(--panel); border-top: 1px solid var(--rule);
+  padding-top: 12px; padding-bottom: calc(12px + env(safe-area-inset-bottom, 0px));
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px));
+  box-shadow: 0 -8px 24px rgba(0, 0, 0, 0.08);
+}
+.p-in { max-width: 760px; margin: 0 auto; display: grid; gap: 8px; }
+.p-title { display: flex; gap: 10px; align-items: baseline; min-width: 0; }
+.p-title b { font-family: var(--mono); color: var(--accent); font-size: 13px; flex: none; }
+.p-title span { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-weight: 700; min-width: 0; }
+.p-bar { display: grid; grid-template-columns: auto minmax(0, 1fr) auto; gap: 10px; align-items: center; font-family: var(--body); font-size: 13px; font-variant-numeric: tabular-nums; color: var(--muted); }
+#seek { width: 100%; accent-color: var(--accent); height: 22px; margin: 0; }
+.p-ctl { display: flex; align-items: center; justify-content: center; gap: 14px; }
+.ctl {
+  background: transparent; border: 1px solid var(--rule); border-radius: 999px; height: 40px; min-width: 52px; padding: 0 10px;
+  cursor: pointer; font-family: var(--mono); font-size: 13px; display: inline-flex; align-items: center; justify-content: center; gap: 4px;
+}
+.ctl:hover { border-color: var(--accent); }
+.ctl svg { width: 18px; height: 18px; fill: currentColor; }
+.play { width: 54px; height: 54px; min-width: 54px; border: 0; background: var(--accent); color: var(--accent-ink); }
+.play svg { width: 22px; height: 22px; }
+.p-msg { font-size: 13px; color: var(--muted); text-align: center; min-height: 0; }
+
+@media (max-width: 480px) {
+  .strip { grid-template-columns: 58px minmax(0, 1fr); }
+  .strip .s-time { grid-column: 2; justify-items: start; grid-auto-flow: column; justify-content: start; gap: 10px; border-left: 0; padding-top: 0; }
+  .s-main p { display: none; }
+  .line { grid-template-columns: minmax(0, 1fr); gap: 0; }
+  .ctl { min-width: 46px; }
+}
+@media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; } }
+</style>
+
+<div class="wrap">
+  <header class="mast">
+    <div class="eyebrow">ATPL theory study podcast · Season 1</div>
+    <h1>Cleared for Theory</h1>
+    <p>Short audio lessons for the 13 EASA ATPL theory subjects. Kate is the instructor and Tom is the student. Each episode ends with a three-question quiz with a pause to answer.</p>
+    <div class="freq"><span>Tuned to</span><b id="episodeCount">5 episodes</b><span id="totalTime"></span></div>
+  </header>
+
+  <section class="board" aria-labelledby="boardTitle">
+    <div class="board-head">
+      <h2 id="boardTitle">Episodes</h2>
+      <span>Tap a strip to load it</span>
+    </div>
+    <div id="strips" class="board"></div>
+  </section>
+
+  <section class="detail" aria-live="polite">
+    <div class="detail-head">
+      <div class="eyebrow" id="dSubject"></div>
+      <h2 id="dTitle"></h2>
+    </div>
+    <div class="notes">
+      <h3>Show notes</h3>
+      <ul id="dKeys"></ul>
+    </div>
+    <div class="tx-head">
+      <h3>Transcript</h3>
+      <label class="toggle" for="follow"><input type="checkbox" id="follow" checked> Follow along</label>
+    </div>
+    <div class="tx" id="tx"></div>
+  </section>
+</div>
+
+<div class="player" role="region" aria-label="Audio player">
+  <div class="p-in">
+    <div class="p-title"><b id="pNum">EP 01</b><span id="pTitle"></span></div>
+    <div class="p-bar">
+      <span id="tCur">0:00</span>
+      <input type="range" id="seek" min="0" max="100" step="0.1" value="0" aria-label="Seek">
+      <span id="tDur">0:00</span>
+    </div>
+    <div class="p-ctl">
+      <button class="ctl" id="back" aria-label="Back 15 seconds">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5V1L7 6l5 5V7a6 6 0 1 1-6 6H4a8 8 0 1 0 8-8z"/></svg>15
+      </button>
+      <button class="ctl play" id="play" aria-label="Play">
+        <svg viewBox="0 0 24 24" aria-hidden="true" id="icoPlay"><path d="M8 5v14l11-7z"/></svg>
+        <svg viewBox="0 0 24 24" aria-hidden="true" id="icoPause" hidden><path d="M6 5h4v14H6zM14 5h4v14h-4z"/></svg>
+      </button>
+      <button class="ctl" id="fwd" aria-label="Forward 30 seconds">
+        30<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5V1l5 5-5 5V7a6 6 0 1 0 6 6h2a8 8 0 1 1-8-8z"/></svg>
+      </button>
+      <button class="ctl" id="rate" aria-label="Playback speed">1×</button>
+    </div>
+    <div class="p-msg" id="pMsg" hidden></div>
+  </div>
+</div>
+
+<audio id="audio" preload="metadata"></audio>
+<script src="episodes.js"></script>
+<script>
+(function () {
+  const EPS = window.EPISODES || [];
+  const $ = (id) => document.getElementById(id);
+  const audio = $("audio");
+  const RATES = [0.8, 1, 1.15, 1.25, 1.5, 1.75];
+  let current = null;
+  let lineEls = [];
+  let nowIdx = -1;
+  let wantPlay = false;
+
+  const store = {
+    get(k, d) { try { const v = localStorage.getItem("cft:" + k); return v === null ? d : JSON.parse(v); } catch (e) { return d; } },
+    set(k, v) { try { localStorage.setItem("cft:" + k, JSON.stringify(v)); } catch (e) {} },
+  };
+
+  const fmt = (s) => {
+    s = Math.max(0, Math.floor(s || 0));
+    const m = Math.floor(s / 60), r = s % 60;
+    return m + ":" + String(r).padStart(2, "0");
+  };
+  const pad = (n) => String(n).padStart(2, "0");
+
+  function progressOf(ep) {
+    const done = store.get("done:" + ep.n, false);
+    if (done) return 1;
+    return Math.min(1, (store.get("pos:" + ep.n, 0) || 0) / ep.duration);
+  }
+
+  function stateLabel(ep) {
+    if (current && current.n === ep.n) return audio.paused ? "Loaded" : "Playing";
+    const p = progressOf(ep);
+    if (p >= 1) return "Played";
+    if (p > 0.01) return fmt(ep.duration * (1 - p)) + " left";
+    return "New";
+  }
+
+  function renderStrips() {
+    const box = $("strips");
+    box.innerHTML = "";
+    EPS.forEach((ep) => {
+      const code = (ep.subject.match(/^\d{3}/) || ["INT"])[0];
+      const b = document.createElement("button");
+      b.className = "strip";
+      b.id = "strip-" + ep.n;
+      b.setAttribute("aria-current", current && current.n === ep.n ? "true" : "false");
+      b.innerHTML =
+        '<div class="s-code"><b>' + code + '</b><small>EP ' + pad(ep.n) + '</small></div>' +
+        '<div class="s-main"><div class="s-subj"></div><h3></h3><p></p></div>' +
+        '<div class="s-time"><span>' + fmt(ep.duration) + '</span><span class="s-state">' + stateLabel(ep) + '</span></div>' +
+        '<span class="s-prog" style="width:' + (progressOf(ep) * 100).toFixed(1) + '%"></span>';
+      b.querySelector(".s-subj").textContent = ep.subject;
+      b.querySelector("h3").textContent = ep.title;
+      b.querySelector("p").textContent = ep.summary;
+      b.addEventListener("click", () => {
+        if (current && current.n === ep.n) { togglePlay(); return; }
+        load(ep, true);
+      });
+      box.appendChild(b);
+    });
+  }
+
+  function renderDetail(ep) {
+    $("dSubject").textContent = "Episode " + ep.n + " · " + ep.subject;
+    $("dTitle").textContent = ep.title;
+    const keys = $("dKeys");
+    keys.innerHTML = "";
+    ep.keys.forEach((k) => { const li = document.createElement("li"); li.textContent = k; keys.appendChild(li); });
+    const tx = $("tx");
+    tx.innerHTML = "";
+    lineEls = ep.lines.map((ln) => {
+      const el = document.createElement("button");
+      el.className = "line";
+      el.dataset.s = ln.s;
+      el.innerHTML = '<span class="who"></span><span class="said"></span>';
+      el.querySelector(".who").textContent = ln.s;
+      el.querySelector(".said").textContent = ln.t;
+      el.setAttribute("aria-label", "Play from: " + ln.s + ", " + ln.t.slice(0, 60));
+      el.addEventListener("click", () => {
+        audio.currentTime = ln.at;
+        if (audio.paused) start();
+      });
+      tx.appendChild(el);
+      return el;
+    });
+    nowIdx = -1;
+  }
+
+  function load(ep, autoplay) {
+    if (current) savePos();
+    current = ep;
+    store.set("last", ep.n);
+    audio.src = ep.file;
+    audio.playbackRate = store.get("rate", 1);
+    $("pNum").textContent = "EP " + pad(ep.n);
+    $("pTitle").textContent = ep.title;
+    $("tDur").textContent = fmt(ep.duration);
+    $("seek").max = ep.duration;
+    const pos = store.get("done:" + ep.n, false) ? 0 : store.get("pos:" + ep.n, 0);
+    $("seek").value = pos;
+    $("tCur").textContent = fmt(pos);
+    audio.dataset.resume = pos;
+    renderDetail(ep);
+    renderStrips();
+    setMedia(ep);
+    if (autoplay) start();
+  }
+
+  function start() {
+    wantPlay = true;
+    const p = audio.play();
+    if (p && p.catch) p.catch(() => {
+      wantPlay = false;
+      showMsg("Tap play to start. Your browser blocked autoplay.");
+    });
+  }
+  function togglePlay() { audio.paused ? start() : audio.pause(); }
+
+  function showMsg(t) { const m = $("pMsg"); m.textContent = t; m.hidden = !t; }
+
+  function savePos() {
+    if (!current) return;
+    store.set("pos:" + current.n, Math.floor(audio.currentTime || 0));
+  }
+
+  function syncPlayIcon() {
+    const playing = !audio.paused;
+    $("icoPlay").hidden = playing;
+    $("icoPause").hidden = !playing;
+    $("play").setAttribute("aria-label", playing ? "Pause" : "Play");
+    const s = current && document.querySelector("#strip-" + current.n + " .s-state");
+    if (s) s.textContent = playing ? "Playing" : "Loaded";
+  }
+
+  function highlight(t) {
+    if (!current) return;
+    const lines = current.lines;
+    let i = -1;
+    for (let k = 0; k < lines.length; k++) { if (lines[k].at <= t + 0.15) i = k; else break; }
+    if (i === nowIdx) return;
+    if (nowIdx >= 0 && lineEls[nowIdx]) lineEls[nowIdx].classList.remove("now");
+    nowIdx = i;
+    if (i >= 0 && lineEls[i]) {
+      lineEls[i].classList.add("now");
+      if ($("follow").checked && !audio.paused) {
+        const r = lineEls[i].getBoundingClientRect();
+        const playerTop = document.querySelector(".player").getBoundingClientRect().top;
+        if (r.top < 80 || r.bottom > playerTop - 20) {
+          const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+          window.scrollBy({ top: r.top - window.innerHeight * 0.35, behavior: reduce ? "auto" : "smooth" });
+        }
+      }
+    }
+  }
+
+  function setMedia(ep) {
+    try {
+      if (!("mediaSession" in navigator)) return;
+      navigator.mediaSession.metadata = new MediaMetadata({
+        title: pad(ep.n) + ". " + ep.title, artist: "Cleared for Theory", album: ep.subject,
+      });
+      const ms = navigator.mediaSession;
+      ms.setActionHandler("play", start);
+      ms.setActionHandler("pause", () => audio.pause());
+      ms.setActionHandler("seekbackward", () => { audio.currentTime -= 15; });
+      ms.setActionHandler("seekforward", () => { audio.currentTime += 30; });
+      ms.setActionHandler("previoustrack", () => { const p = EPS.find((e) => e.n === ep.n - 1); if (p) load(p, true); });
+      ms.setActionHandler("nexttrack", () => { const n = EPS.find((e) => e.n === ep.n + 1); if (n) load(n, true); });
+    } catch (e) {}
+  }
+
+  audio.addEventListener("loadedmetadata", () => {
+    const r = parseFloat(audio.dataset.resume || "0");
+    if (r > 0 && r < audio.duration - 5) audio.currentTime = r;
+    audio.dataset.resume = "0";
+    audio.playbackRate = store.get("rate", 1);
+  });
+  audio.addEventListener("timeupdate", () => {
+    const t = audio.currentTime;
+    $("seek").value = t;
+    $("tCur").textContent = fmt(t);
+    highlight(t);
+    if (Math.floor(t) % 5 === 0) savePos();
+    const bar = current && document.querySelector("#strip-" + current.n + " .s-prog");
+    if (bar && current) bar.style.width = Math.min(100, (t / current.duration) * 100).toFixed(1) + "%";
+  });
+  audio.addEventListener("play", () => { showMsg(""); syncPlayIcon(); });
+  audio.addEventListener("pause", () => { savePos(); syncPlayIcon(); });
+  audio.addEventListener("ended", () => {
+    store.set("done:" + current.n, true);
+    store.set("pos:" + current.n, 0);
+    const next = EPS.find((e) => e.n === current.n + 1);
+    if (next) load(next, true); else { renderStrips(); syncPlayIcon(); }
+  });
+  audio.addEventListener("error", () => {
+    if (wantPlay) showMsg("This episode's audio didn't load. Check your connection and tap play again.");
+  });
+
+  $("play").addEventListener("click", togglePlay);
+  $("back").addEventListener("click", () => { audio.currentTime = Math.max(0, audio.currentTime - 15); });
+  $("fwd").addEventListener("click", () => { audio.currentTime = Math.min(audio.duration || 0, audio.currentTime + 30); });
+  $("seek").addEventListener("input", (e) => { audio.currentTime = parseFloat(e.target.value); highlight(audio.currentTime); });
+  $("rate").addEventListener("click", () => {
+    const cur = store.get("rate", 1);
+    const next = RATES[(RATES.indexOf(cur) + 1) % RATES.length] || 1;
+    store.set("rate", next);
+    audio.playbackRate = next;
+    $("rate").textContent = next + "×";
+  });
+  document.addEventListener("keydown", (e) => {
+    if (e.code !== "Space" || /INPUT|BUTTON|TEXTAREA/.test(document.activeElement.tagName)) return;
+    e.preventDefault();
+    togglePlay();
+  });
+  window.addEventListener("pagehide", savePos);
+
+  $("rate").textContent = store.get("rate", 1) + "×";
+  const total = EPS.reduce((a, e) => a + e.duration, 0);
+  $("episodeCount").textContent = EPS.length + " episodes";
+  $("totalTime").textContent = "· " + Math.round(total / 60) + " min of audio";
+  const lastN = store.get("last", 1);
+  const first = EPS.find((e) => e.n === lastN) || EPS[0];
+  if (first) load(first, false);
+})();
+</script>

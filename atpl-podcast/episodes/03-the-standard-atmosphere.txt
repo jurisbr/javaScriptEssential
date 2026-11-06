@@ -1,0 +1,53 @@
+TITLE: The standard atmosphere and your altimeter
+SUBJECT: 050 Meteorology
+SUMMARY: The ISA numbers you must know by heart, ISA deviation, how the altimeter works, QNH, QFE and standard settings, and the two classic altimeter errors.
+KEY: ISA at mean sea level: +15 degrees C, 1013.25 hPa, density 1.225 kg per cubic metre.
+KEY: Temperature falls 1.98 degrees per 1,000 ft (about 2) up to the tropopause at 11 km / 36,090 ft, then stays at -56.5 degrees up to 20 km.
+KEY: Near sea level, about 1 hPa per 27 ft. Pressure is about half by 18,000 ft.
+KEY: QNH = altitude above mean sea level. QFE = height above the aerodrome. 1013 = pressure altitude / flight levels.
+KEY: From high to low, or from hot to cold, look out below (you are lower than indicated).
+KEY: Rule of thumb: about 4% height error for every 10 degrees of ISA deviation.
+---
+[chime]
+K: Welcome back to Cleared for Theory. Episode three takes us into meteorology, subject zero five zero, and into a topic that links several subjects together: the international standard atmosphere, and how your altimeter uses it.
+T: Why do we need a standard atmosphere at all? The real one changes every day.
+K: That's exactly why. Aircraft performance, instruments and flight levels all need a common reference. So ICAO defined an average, idealised atmosphere, called the ISA, and everything is measured against it.
+T: Okay, give me the numbers.
+K: Learn these by heart. At mean sea level in the ISA, the temperature is plus fifteen degrees Celsius. The pressure is 1013.25 hectopascals. And the density is 1.225 kilograms per cubic metre.
+T: Fifteen degrees, 1013.25, and 1.225.
+K: Then, as you climb, the temperature falls at 1.98 degrees per thousand feet. In exam calculations, you'll usually round that to two degrees per thousand feet. That steady fall continues up to the tropopause, which in the ISA is at eleven kilometres, or 36,090 feet.
+T: And above the tropopause?
+K: Above it, the ISA temperature stays constant at minus 56.5 degrees, up to twenty kilometres. That layer is the lower stratosphere.
+T: Let me check I've got it. Fifteen degrees at the surface, minus two per thousand feet, until it stops at minus 56.5 at the tropopause.
+K: Perfect. Let's use it. What's the ISA temperature at ten thousand feet?
+T: Fifteen, minus two times ten, so minus five degrees.
+K: Right. Using 1.98 it's minus 4.8, but minus five is fine for most questions. Now, this matters because real air is rarely standard. If the actual temperature at ten thousand feet is plus five, we say it's ISA plus ten: ten degrees warmer than standard. You'll see ISA deviation in performance charts, in flight planning, and of course in altimetry.
+T: Speaking of altimetry. How does the altimeter actually work?
+K: The altimeter is a barometer. It measures air pressure, and converts it into height using the ISA. Pressure falls as you climb, quickly at first, then more slowly. Near sea level, it falls by about one hectopascal for every twenty-seven feet. Higher up, each hectopascal is worth more feet, because the air is thinner. By about eighteen thousand feet, the pressure has dropped to roughly half of its sea level value.
+T: So the altimeter assumes the standard atmosphere. But the real pressure changes with the weather.
+K: Which is why it has a subscale, the little window where you set a reference pressure. There are three settings to know. Set QNH, and the altimeter reads altitude: your height above mean sea level. Set QFE, and it reads height above the aerodrome, so it shows zero on the runway. And set the standard pressure, ten thirteen, and it reads pressure altitude, which is what flight levels are based on.
+T: When do I switch to standard?
+K: When you climb through the transition altitude, you set ten thirteen and start talking in flight levels. On the way down, you switch back to QNH as you descend through the transition level. Flight level one hundred, for example, means ten thousand feet of pressure altitude, with ten thirteen set.
+T: Okay. And now the part where it lies to me?
+K: Yes. There are two classic errors. The first is pressure. Imagine you fly from an area of high pressure into an area of low pressure, and you forget to update your QNH. The altimeter thinks you're higher than you really are. So, to keep the needle at the same reading, you gradually descend without realising it.
+T: So I end up lower than the altimeter says.
+K: Exactly. Which gives the memory aid: from high to low, look out below.
+T: And the second error?
+K: Temperature. Cold air is denser, so the pressure levels are packed closer together. In air that's colder than ISA, the altimeter over-reads again, and you're lower than indicated. So the memory aid works for both: from high to low, or from hot to cold, look out below.
+T: How big is the temperature error?
+K: A handy rule of thumb is four percent of your height for every ten degrees of ISA deviation. So at ten thousand feet, in air that's twenty degrees colder than ISA, you could be around eight hundred feet lower than your altimeter shows.
+T: Eight hundred feet. That's the kind of thing that matters near mountains.
+K: It's exactly why cold temperature corrections are applied to minimum altitudes on approaches in very cold weather. Okay, recap. ISA at sea level: plus fifteen degrees, 1013.25 hectopascals, and 1.225 kilograms per cubic metre. The temperature falls 1.98 degrees per thousand feet up to the tropopause at 36,090 feet, then stays at minus 56.5. QNH gives altitude, QFE gives height, and standard gives flight levels. And from high to low, or hot to cold, look out below.
+[chime]
+K: Quiz time. Question one. What is the ISA temperature at flight level two hundred?
+[pause 5]
+K: Fifteen, minus two times twenty: about minus twenty-five degrees. Using 1.98, it's minus 24.6.
+K: Question two. The actual temperature at flight level two hundred is minus fifteen degrees. What is the ISA deviation?
+[pause 5]
+K: ISA plus ten. The actual temperature is ten degrees warmer than the standard minus twenty-five.
+K: Question three. You fly from high pressure towards low pressure without resetting your altimeter. Are you higher or lower than indicated?
+[pause 4]
+K: Lower. From high to low, look out below.
+T: The rhyme really makes it stick.
+K: That's the idea. Next episode: human performance, and what happens to your body as you climb into thinner air.
+[chime]
